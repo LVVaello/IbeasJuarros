@@ -1,0 +1,17 @@
+ASSETS PENDIENTES DE AÑADIR
+============================
+
+Coloca en esta carpeta los siguientes archivos de imagen:
+
+1. escudo-ibeas.png
+   Escudo oficial del Ayuntamiento de Ibeas de Juarros
+   Tamaño recomendado: mínimo 200x200px, fondo transparente (PNG)
+   Referencia: solicitar al Ayuntamiento o extraer del membrete oficial
+
+2. logo-agenda-urbana.png
+   Logotipo oficial de la Agenda Urbana Española (círculo amarillo)
+   Tamaño recomendado: mínimo 300x300px, fondo transparente (PNG)
+   Descarga oficial: https://www.mitma.gob.es/arquitectura-vivienda-y-suelo/urbanismo-y-politica-de-suelo/agenda-urbana-espanola
+
+Una vez añadidos, el header y la página de inicio los mostrarán automáticamente.
+Si los archivos no existen, se ocultan sin romper la web (comportamiento actual con onError).
