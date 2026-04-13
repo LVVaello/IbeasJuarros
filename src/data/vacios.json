@@ -1,0 +1,226 @@
+[
+  {
+    "grupo_tematico": "Población",
+    "bloque": "Indicadores de estructura de edades",
+    "indicador": "Pirámide de población",
+    "archivo_origen": "data (5).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Población",
+    "bloque": "Indicadores de estructura de edades",
+    "indicador": "Pirámide de población - Ibeas de Juarros",
+    "archivo_origen": "data (5).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Vivienda",
+    "bloque": "Densidad de viviendas según tipo",
+    "indicador": "Secundarias (viviendas/Km²)",
+    "archivo_origen": "data (7).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Vivienda",
+    "bloque": "Viviendas según su tipo",
+    "indicador": "Secundarias",
+    "archivo_origen": "data (7).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Vivienda",
+    "bloque": "Viviendas según su tipo",
+    "indicador": "Vacías",
+    "archivo_origen": "data (7).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Vivienda",
+    "bloque": "Viviendas según su tipo",
+    "indicador": "Otras viviendas",
+    "archivo_origen": "data (7).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Vivienda",
+    "bloque": "Viviendas según su tipo",
+    "indicador": "Total",
+    "archivo_origen": "data (7).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Tejido urbano continuo",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Zonas industriales y comerciales",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Redes viarias y ferroviarias",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Zonas portuarias",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Aeropuertos",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Escombreros y vertederos",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Zonas en construcción",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Zonas verdes urbanas",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Ocupación de suelo",
+    "bloque": "Ocupación de suelo. CORINE",
+    "indicador": "Instalaciones deportivas y recreativas",
+    "archivo_origen": "data (9).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Trabajadores y establecimientos",
+    "bloque": "Distribución de los establecimientos - según rama de actividad",
+    "indicador": "Establecimientos industriales",
+    "archivo_origen": "data (10).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Trabajadores y establecimientos",
+    "bloque": "Distribución de los establecimientos - según rama de actividad",
+    "indicador": "Establecimientos en construcción",
+    "archivo_origen": "data (10).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Trabajadores y establecimientos",
+    "bloque": "Distribución de los establecimientos - según rama de actividad",
+    "indicador": "Total",
+    "archivo_origen": "data (10).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de parados según sexo",
+    "indicador": "Masculino",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de parados según sexo",
+    "indicador": "Femenino",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de parados según sexo",
+    "indicador": "Total",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de los parados - según rama de actividad",
+    "indicador": "Agricultura",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de los parados - según rama de actividad",
+    "indicador": "Industria",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de los parados - según rama de actividad",
+    "indicador": "Construcción",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de los parados - según rama de actividad",
+    "indicador": "Servicios",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de los parados - según rama de actividad",
+    "indicador": "Total",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de los parados - según grupo de edad",
+    "indicador": "< 25 años",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de los parados - según grupo de edad",
+    "indicador": "25 a 44 años",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Estructura productiva. Paro",
+    "bloque": "Distribución de los parados - según grupo de edad",
+    "indicador": "Total",
+    "archivo_origen": "data (11).xlsx",
+    "motivo": "El archivo contiene el indicador, pero el valor municipal no aparece en la exportación."
+  },
+  {
+    "grupo_tematico": "Dataset comparativo multicriterio",
+    "bloque": "Indicadores comparativos con mediana y cuartiles",
+    "indicador": "Datos básicos del municipio",
+    "archivo_origen": "AU_DANA_dataset_master_v1_Dataset_Taula-2.csv",
+    "motivo": "Indicador comparativo con referencia estadística (mediana y cuartiles)."
+  },
+  {
+    "grupo_tematico": "Población",
+    "bloque": "Población. Mapa de edad media",
+    "indicador": "Sin registros de indicadores",
+    "archivo_origen": "data (6).xlsx",
+    "motivo": "El archivo solo contiene cabecera y no aporta datos numéricos explotables."
+  }
+]
