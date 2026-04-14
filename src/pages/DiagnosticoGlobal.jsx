@@ -280,8 +280,10 @@ export default function DiagnosticoGlobal() {
 
         <hr className="divider" />
         <div className="flex gap-md" style={{ flexWrap: 'wrap' }}>
-          <Link to="/objetivos" className="btn btn-primary">Explorar por OE</Link>
-          <Link to="/datos" className="btn btn-outline">Visor de datos completo</Link>
+          <Link to="/conclusiones" className="btn btn-primary">Ver conclusiones →</Link>
+          <Link to="/retos" className="btn btn-outline">Ver retos</Link>
+          <Link to="/propuestas" className="btn btn-outline">Ver propuestas</Link>
+          <Link to="/objetivos" className="btn btn-outline">Explorar por OE</Link>
           <Link to="/aportaciones" className="btn btn-accent">Realizar aportación</Link>
         </div>
       </div>
