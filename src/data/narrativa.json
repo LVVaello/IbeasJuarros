@@ -121,43 +121,141 @@
   },
   "oe": {
     "1": {
-      "diagnostico": "El análisis del territorio y el suelo de Ibeas de Juarros se apoya principalmente en los datos del dataset comparativo multicriterio y en los indicadores de ocupación de suelo. Los 50 registros asignados a este OE recogen información sobre usos del suelo, superficie construida, espacios abiertos y relación entre el municipio y su entorno natural. La disponibilidad de dato es del 82% (41 de 50 indicadores con dato municipal). Los vacíos corresponden principalmente a indicadores de planificación urbanística y gestión catastral.",
+      "diagnostico": "El término municipal de Ibeas de Juarros presenta una estructura territorial de marcado carácter natural y agrario. El 98,36% del suelo es no urbanizable, con un 64,40% de superficie forestal y de dehesa y un 31,55% de cultivos; la cobertura artificial apenas alcanza el 0,86% del término. En el interior del espacio urbanizado, la forma urbana es de baja densidad —7,87 hab/ha, por debajo de la mediana comparativa— y con tejido discontinuo. El planeamiento vigente data de 2003 y clasifica como suelo urbanizable delimitado el 27,63% del suelo urbano, una proporción elevada en relación con el ritmo de crecimiento real y con la escala del municipio.",
       "conclusiones": [
-        { "id": "C-1-01", "titulo": "Caracterización del uso del suelo disponible", "texto": "Los datos de ocupación de suelo procedentes del Corine Land Cover y del Atlas Digital permiten una primera caracterización del municipio, aunque con limitaciones de escala para un municipio pequeño." },
-        { "id": "C-1-02", "titulo": "9 indicadores sin dato municipal", "texto": "Existe un conjunto de indicadores de planificación y gestión del suelo para los que no se dispone de dato municipal, lo que limita el diagnóstico en estas dimensiones." }
+        {
+          "id": "C-1-01",
+          "titulo": "Dominio claro del suelo no urbanizable: activo territorial y paisajístico",
+          "texto": "El 98,36% del término es suelo no urbanizable, con gran peso forestal (64,40%) y agrícola (31,55%). Esta estructura es un valor en sí misma: garantiza continuidad ecológica, paisaje de calidad y bajo impacto ambiental de la urbanización."
+        },
+        {
+          "id": "C-1-02",
+          "titulo": "Patrón urbano de baja densidad con presencia de tejido discontinuo",
+          "texto": "La densidad urbana de 7,87 hab/ha y la presencia de tejido mixto discontinuo (26,18%) apuntan a un modelo de ocupación relativamente extensivo respecto al volumen de población, con los consiguientes costes de mantenimiento de infraestructuras y servicios."
+        },
+        {
+          "id": "C-1-03",
+          "titulo": "Planeamiento de 2003 desajustado respecto a la realidad actual",
+          "texto": "El PGOU vigente fue aprobado hace más de veinte años, en un contexto demográfico y residencial diferente al actual. La clasificación de suelo urbanizable delimitado (27,63% del suelo urbano) supera ampliamente la demanda real de los últimos años y puede condicionar decisiones de crecimiento no alineadas con las necesidades reales del municipio."
+        }
       ],
       "retos": [
-        { "id": "R-1-01", "titulo": "Completar indicadores de planeamiento urbanístico", "texto": "Recopilar información sobre el planeamiento vigente, su fecha de aprobación, grado de desarrollo y superficie clasificada por tipo de suelo." },
-        { "id": "R-1-02", "titulo": "Actualizar datos de usos del suelo a escala local", "texto": "Las fuentes de escala regional o nacional presentan limitaciones para municipios pequeños. Sería necesario un levantamiento específico a escala local." }
+        {
+          "id": "R-1-01",
+          "titulo": "Revisar el planeamiento urbanístico y ajustarlo a la escala real del municipio",
+          "texto": "El principal reto de ordenación territorial es actualizar el PGOU de 2003, adecuando la clasificación de suelo a la demanda residencial efectiva, protegiendo los valores naturales y forestales del término y estableciendo criterios claros de compacidad para el crecimiento futuro."
+        },
+        {
+          "id": "R-1-02",
+          "titulo": "Contener la dispersión urbana y fortalecer el núcleo existente",
+          "texto": "El modelo de baja densidad y tejido discontinuo incrementa los costes de mantenimiento y dificulta la prestación eficiente de servicios. La ordenación futura debe priorizar la consolidación del tejido urbano existente frente a nuevas extensiones periféricas."
+        }
       ],
       "propuestas": [
-        { "id": "P-1-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas vinculadas a la ordenación del territorio y el uso del suelo." }
+        {
+          "id": "P-1-01",
+          "titulo": "Iniciar la revisión del PGOU con criterios de sostenibilidad y escala real",
+          "texto": "Impulsar la revisión del planeamiento de 2003 incorporando criterios de compacidad, protección del entorno natural y ajuste de la superficie urbanizable a la demanda residencial efectiva del municipio.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-1-02",
+          "titulo": "Catalogar y proteger los espacios forestales y agrícolas de mayor valor",
+          "texto": "Identificar y delimitar en el planeamiento los suelos forestales, de ribera y agrícolas de mayor valor ambiental y paisajístico, estableciendo categorías de protección que los preserven frente a eventuales presiones de transformación.",
+          "prioridad": "media"
+        }
       ]
     },
     "2": {
-      "diagnostico": "El OE 2 concentra el mayor volumen de registros del diagnóstico (129), incluyendo datos de población, tipología edificatoria, vivienda y ocupación de suelo. La disponibilidad es muy alta (122 de 129, el 95%). Esta OE recoge la evolución histórica de la población desde 1960, la estructura demográfica, el parque de viviendas y las características del tejido urbano. Es el OE con información más rica para el análisis territorial de Ibeas de Juarros.",
+      "diagnostico": "La trayectoria demográfica de Ibeas de Juarros es una de las claves más expresivas del diagnóstico. El municipio pasó de 1.960 habitantes en 1960 a 839 en 1991, experimentando un vaciamiento rural severo durante tres décadas. A partir de los años noventa —y especialmente desde el año 2000— la tendencia se invirtió de forma notable: la población padronal creció de 998 habitantes en 2001 a 1.459 en 2024, impulsada por la expansión residencial suburbana vinculada a la proximidad a Burgos. Esta recuperación es real, pero convive con un patrón de ocupación que combina base histórica envejecida (805 edificios anteriores a 1950) y crecimiento reciente de baja densidad (511 edificios posteriores a 2000), con un crecimiento del parque de vivienda entre 2011 y 2021 del 31,65%, muy superior al crecimiento de hogares del mismo período (+12,9%).",
       "conclusiones": [
-        { "id": "C-2-01", "titulo": "Evolución demográfica con pérdida de población a largo plazo", "texto": "Los datos de población censal muestran la evolución del municipio desde mediados del siglo XX, permitiendo visualizar el proceso de vaciamiento rural y sus características en Ibeas de Juarros." },
-        { "id": "C-2-02", "titulo": "Alta disponibilidad de datos para este OE", "texto": "Con un 95% de disponibilidad, este OE es el mejor documentado del diagnóstico, lo que permite un análisis sólido de la dinámica demográfica y edificatoria." }
+        {
+          "id": "C-2-01",
+          "titulo": "Recuperación demográfica sólida sobre base suburbana, no sobre actividad económica local",
+          "texto": "El crecimiento de los años 2000 se apoya en la función residencial del municipio respecto a Burgos, no en la generación de empleo o actividad local. Esto hace que la recuperación sea frágil ante cambios en el mercado de la vivienda o en la movilidad."
+        },
+        {
+          "id": "C-2-02",
+          "titulo": "Doble condición del tejido edificado: sustrato histórico y expansión reciente",
+          "texto": "Con 805 edificios anteriores a 1950 y 511 posteriores al año 2000, el municipio combina un núcleo histórico con déficits de habitabilidad y eficiencia energética, y un tejido reciente de baja densidad que ha crecido más deprisa que la demanda real de vivienda."
+        },
+        {
+          "id": "C-2-03",
+          "titulo": "Crecimiento del parque residencial desproporcionado respecto al crecimiento de hogares",
+          "texto": "El parque de vivienda creció un 31,65% entre 2011 y 2021, frente a un crecimiento de hogares del 12,9%. Esta diferencia apunta a sobreproducción residencial relativa, con el consiguiente riesgo de infrautilización del parque construido."
+        }
       ],
       "retos": [
-        { "id": "R-2-01", "titulo": "Revertir la tendencia de pérdida demográfica", "texto": "La dinámica demográfica a largo plazo requiere estrategias de atracción de población y retención de jóvenes compatibles con el modelo territorial y los servicios disponibles." },
-        { "id": "R-2-02", "titulo": "Mejorar el tejido edificatorio existente", "texto": "La rehabilitación y mejora del parque edificatorio es una prioridad para revitalizar el municipio y mejorar las condiciones de habitabilidad." }
+        {
+          "id": "R-2-01",
+          "titulo": "Consolidar la revitalización en clave de calidad, no de expansión",
+          "texto": "El reto no es seguir creciendo en extensión, sino consolidar el tejido existente con mejor habitabilidad, mayor eficiencia energética, más mezcla de usos y mayor calidad del espacio público. El modelo de referencia debe ser la ciudad compacta, no la suburbanización difusa."
+        },
+        {
+          "id": "R-2-02",
+          "titulo": "Rehabilitar el parque histórico anterior a 1950",
+          "texto": "Los 805 edificios anteriores a 1950 concentran los mayores déficits de conservación, accesibilidad y eficiencia energética. Su rehabilitación es una prioridad para mantener el valor del núcleo tradicional y mejorar las condiciones de vida de sus habitantes."
+        }
       ],
       "propuestas": [
-        { "id": "P-2-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas de revitalización urbana y gestión de la ciudad existente." }
+        {
+          "id": "P-2-01",
+          "titulo": "Programa de rehabilitación del núcleo histórico con cofinanciación pública",
+          "texto": "Diseñar un programa específico de rehabilitación para los edificios del núcleo anterior a 1950, con posible cofinanciación mediante el Plan de Recuperación y Resiliencia o programas de vivienda de la Junta de Castilla y León.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-2-02",
+          "titulo": "Estrategia de consolidación del tejido residencial existente",
+          "texto": "Definir criterios de intervención preferente sobre el tejido ya construido (mejora de espacios públicos, dotaciones, accesibilidad) frente a nuevas actuaciones de expansión, especialmente en las áreas de baja densidad desarrolladas en los años 2000.",
+          "prioridad": "media"
+        }
       ]
     },
     "3": {
-      "diagnostico": "El OE 3 (Cambio climático y resiliencia) cuenta con 34 registros, procedentes principalmente del dataset comparativo multicriterio y de los datos de ocupación de suelo. La disponibilidad es del 74% (25 de 34). Los vacíos corresponden a indicadores de vulnerabilidad climática y eficiencia energética específicos para el municipio. Ibeas de Juarros, por su situación en el corredor del Arlanzón y su entorno forestal, presenta características territoriales relevantes para el análisis de riesgos climáticos.",
+      "diagnostico": "El diagnóstico de cambio climático y resiliencia en Ibeas de Juarros no puede apoyarse en un bloque estadístico climático específico, pero los datos territoriales disponibles permiten una lectura útil. El gran peso del suelo forestal (64,40%) y agrícola (31,55%), junto con la escasa artificialización del término (<1%), constituyen una base de resiliencia ambiental notable: la continuidad ecológica, la capacidad de infiltración y la regulación hídrica del territorio están, en principio, bien preservadas. El riesgo climático principal no proviene del tejido ya construido, sino del patrón de crecimiento futuro: si el municipio continúa expandiéndose en baja densidad, aumentará la superficie artificial, la movilidad obligada y el consumo energético residencial, reduciendo la resiliencia global del sistema territorial. La presencia del río Arlanzón y las masas forestales introduce también la necesidad de gestionar riesgos de inundación e incendio.",
       "conclusiones": [
-        { "id": "C-3-01", "titulo": "9 indicadores sin dato en cambio climático", "texto": "Los vacíos en este OE se concentran en aspectos de vulnerabilidad climática y adaptación que requieren fuentes específicas no disponibles en la matriz actual." }
+        {
+          "id": "C-3-01",
+          "titulo": "El territorio natural es el principal activo de resiliencia climática del municipio",
+          "texto": "La cobertura forestal (64,4%) y el bajo nivel de artificialización ofrecen capacidad de regulación ambiental, retención de carbono y continuidad ecológica. Preservar este capital natural es la medida de adaptación climática más efectiva disponible."
+        },
+        {
+          "id": "C-3-02",
+          "titulo": "El modelo de crecimiento urbano condiciona la vulnerabilidad climática futura",
+          "texto": "La baja densidad, la dispersión residencial y la dependencia del vehículo privado generan una huella de carbono de movilidad elevada y dificultan la eficiencia energética del parque edificado. Un crecimiento más compacto reduciría significativamente estas vulnerabilidades."
+        },
+        {
+          "id": "C-3-03",
+          "titulo": "Presencia de riesgos naturales a gestionar: incendio forestal e inundación",
+          "texto": "La magnitud de la cobertura forestal implica exposición al riesgo de incendio. La presencia del Arlanzón y sus afluentes introduce riesgo de inundación en determinadas zonas del término. Ambos factores requieren atención en la planificación territorial y en los planes de emergencia local."
+        }
       ],
       "retos": [
-        { "id": "R-3-01", "titulo": "Completar el diagnóstico de vulnerabilidad climática", "texto": "Incorporar datos específicos de riesgo de inundación, sequía, incendio forestal y otros riesgos climáticos para el municipio y su entorno." }
+        {
+          "id": "R-3-01",
+          "titulo": "Integrar la resiliencia climática en el planeamiento urbanístico",
+          "texto": "La revisión del PGOU es la oportunidad principal para incorporar criterios de adaptación climática: protección de zonas inundables, franjas de defensa contra incendios forestales, conservación de corredores ecológicos y limitación de la artificialización."
+        },
+        {
+          "id": "R-3-02",
+          "titulo": "Mejorar la eficiencia energética del parque edificado",
+          "texto": "El parque de viviendas, especialmente el anterior a 1980, acumula déficits de aislamiento y eficiencia energética que aumentan la vulnerabilidad térmica de los hogares —especialmente en invierno— y la huella de carbono del municipio. La rehabilitación energética es también una medida de mitigación."
+        }
       ],
       "propuestas": [
-        { "id": "P-3-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas de adaptación y mitigación del cambio climático." }
+        {
+          "id": "P-3-01",
+          "titulo": "Incorporar criterios climáticos en la revisión del planeamiento",
+          "texto": "Incluir en el proceso de revisión del PGOU un análisis de vulnerabilidad climática que delimite zonas inundables, establezca franjas de seguridad frente a incendios forestales y proteja los principales corredores ecológicos del término.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-3-02",
+          "titulo": "Programa de rehabilitación energética vinculado al parque edificado histórico",
+          "texto": "Incluir la eficiencia energética como criterio transversal en el programa de rehabilitación del núcleo histórico, aprovechando las líneas de cofinanciación disponibles para mejora de envolvente térmica e instalaciones.",
+          "prioridad": "media"
+        }
       ]
     },
     "4": {
