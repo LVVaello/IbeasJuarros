@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import OEIcon from './OEIcon'
 
-export default function OECard({ oe, stats, compact = false }) {
+export default function OECard({ oe, stats, compact = false, hideStats = false }) {
   const disponibles = stats?.disponibles ?? 0
   const total = stats?.total ?? 0
   const pct = total > 0 ? Math.round(100 * disponibles / total) : 0
@@ -90,7 +90,7 @@ export default function OECard({ oe, stats, compact = false }) {
         )}
 
         {/* Stats */}
-        {total > 0 && (
+        {!hideStats && total > 0 && (
           <div style={{
             marginTop: 'auto',
             paddingTop: 'var(--space-sm)',
