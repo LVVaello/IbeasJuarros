@@ -20,7 +20,7 @@ export default function Header() {
         {/* Logos */}
         <Link to="/" className="header-brand" aria-label="Inicio">
           <img
-            src="assets/escudo-ibeas-v2.png"
+            src="assets/escudo-ibeas.png?v=2"
             alt="Escudo de Ibeas de Juarros"
             className="header-escudo"
             style={{ height: 40, width: 'auto' }}
