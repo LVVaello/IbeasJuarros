@@ -7,7 +7,7 @@ import config from '../data/config.json'
 import Breadcrumb from '../components/Breadcrumb'
 import OEIcon from '../components/OEIcon'
 
-const TABS = ['Datos', 'Diagnóstico', 'Conclusiones', 'Retos', 'Propuestas']
+const TABS = ['Diagnóstico', 'Conclusiones', 'Retos', 'Propuestas', 'Datos']
 
 function buildFormUrl(oeId) {
   const { url_base_prefill, field_oe } = config.google_form
@@ -21,7 +21,7 @@ export default function OEDetail() {
   const oeId = parseInt(id)
   const oe = oes.find(o => o.id === oeId)
 
-  const [tab, setTab] = useState('Datos')
+  const [tab, setTab] = useState('Diagnóstico')
   const [search, setSearch] = useState('')
   const [filterGrupo, setFilterGrupo] = useState('')
   const [filterDisp, setFilterDisp] = useState('')
@@ -187,7 +187,7 @@ export default function OEDetail() {
             >
               {t}
               {t === 'Datos' && rawData.length > 0 && (
-                <span className="badge badge-light" style={{ marginLeft: 4, fontSize: '0.68rem' }}>{rawData.length}</span>
+                <span className="badge badge-light" style={{ marginLeft: 4, fontSize: '0.68rem' }}>{rawData.length} ind.</span>
               )}
             </button>
           ))}
