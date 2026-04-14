@@ -40,7 +40,7 @@ export default function Home() {
           {/* Cabecera institucional */}
           <div style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-lg)', marginBottom: 'var(--space-lg)', flexWrap: 'wrap' }}>
             <img
-              src="assets/escudo-ibeas.png"
+              src="assets/escudo-ibeas-v2.png"
               alt="Escudo de Ibeas de Juarros"
               style={{ height: 72, width: 'auto', filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.35))', flexShrink: 0 }}
               onError={e => { e.target.style.display = 'none' }}
