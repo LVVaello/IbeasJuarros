@@ -1,0 +1,132 @@
+{
+  "municipio": "Ibeas de Juarros",
+  "total_indicadores": 281,
+  "disponibles": 250,
+  "no_disponibles": 31,
+  "tasa_disponibilidad_pct": 89.0,
+  "por_oe": {
+    "1": 50,
+    "2": 129,
+    "3": 34,
+    "4": 8,
+    "5": 8,
+    "6": 129,
+    "7": 101,
+    "8": 45,
+    "9": 0,
+    "10": 5
+  },
+  "resumen_oe": {
+    "1": {
+      "oe": 1,
+      "titulo": "Ordenar el territorio y hacer un uso racional del suelo",
+      "total": 50,
+      "disponibles": 41,
+      "no_disponibles": 9,
+      "grupos_tematicos": "Dataset comparativo multicriterio, Ocupación de suelo"
+    },
+    "2": {
+      "oe": 2,
+      "titulo": "Evitar la dispersión urbana y revitalizar el territorio",
+      "total": 129,
+      "disponibles": 122,
+      "no_disponibles": 7,
+      "grupos_tematicos": "Dataset comparativo multicriterio, Ocupación de suelo, Población, Tipología edificatoria, Vivienda"
+    },
+    "3": {
+      "oe": 3,
+      "titulo": "Prevenir y reducir los impactos del cambio climático",
+      "total": 34,
+      "disponibles": 25,
+      "no_disponibles": 9,
+      "grupos_tematicos": "Dataset comparativo multicriterio, Ocupación de suelo"
+    },
+    "4": {
+      "oe": 4,
+      "titulo": "Hacer una gestión sostenible de los recursos y favorecer la economía circular",
+      "total": 8,
+      "disponibles": 8,
+      "no_disponibles": 0,
+      "grupos_tematicos": "Tipología edificatoria"
+    },
+    "5": {
+      "oe": 5,
+      "titulo": "Favorecer la proximidad y la movilidad sostenible",
+      "total": 8,
+      "disponibles": 7,
+      "no_disponibles": 1,
+      "grupos_tematicos": "Dataset comparativo multicriterio, Ocupación de suelo"
+    },
+    "6": {
+      "oe": 6,
+      "titulo": "Fomentar la cohesión social y buscar la equidad",
+      "total": 129,
+      "disponibles": 116,
+      "no_disponibles": 13,
+      "grupos_tematicos": "Dataset comparativo multicriterio, Estructura productiva. Paro, Población"
+    },
+    "7": {
+      "oe": 7,
+      "titulo": "Impulsar y favorecer la economía urbana",
+      "total": 101,
+      "disponibles": 85,
+      "no_disponibles": 16,
+      "grupos_tematicos": "Dataset comparativo multicriterio, Estructura productiva. Paro, Estructura productiva. Trabajadores y establecimientos, Ocupación de suelo, Tipología edificatoria"
+    },
+    "8": {
+      "oe": 8,
+      "titulo": "Garantizar el acceso a la vivienda",
+      "total": 45,
+      "disponibles": 40,
+      "no_disponibles": 5,
+      "grupos_tematicos": "Dataset comparativo multicriterio, Ocupación de suelo, Tipología edificatoria, Vivienda"
+    },
+    "9": {
+      "oe": 9,
+      "titulo": "Liderar y fomentar la innovación digital",
+      "total": 0,
+      "disponibles": 0,
+      "no_disponibles": 0,
+      "grupos_tematicos": null
+    },
+    "10": {
+      "oe": 10,
+      "titulo": "Mejorar los instrumentos de intervención y la gobernanza",
+      "total": 6,
+      "disponibles": 5,
+      "no_disponibles": 1,
+      "grupos_tematicos": "Dataset comparativo multicriterio"
+    }
+  },
+  "grupos_tematicos": [
+    "Dataset comparativo multicriterio",
+    "Estructura productiva. Paro",
+    "Estructura productiva. Trabajadores y establecimientos",
+    "Ocupación de suelo",
+    "Población",
+    "Tipología edificatoria",
+    "Vivienda"
+  ],
+  "fuentes": [
+    "CSV maestro AU_DANA_dataset_master_v1_Dataset_Taula-2.csv",
+    "Fuente : Atlas Digital de las Áreas Urbanas. Dirección General de Catastro - 2024",
+    "Fuente : Atlas Digital de las Áreas Urbanas. IGN. Corine Land Cover. - 2016",
+    "Fuente : Atlas Digital de las Áreas Urbanas. Instituto Nacional de Estadística",
+    "Fuente : Atlas Digital de las Áreas Urbanas. Instituto Nacional de Estadística - 2021",
+    "Fuente : Atlas Digital de las Áreas Urbanas. Instituto Nacional de Estadística - 2024",
+    "Fuente : Atlas Digital de las Áreas Urbanas. SEPE",
+    "Fuente : Atlas Digital de las Áreas Urbanas. SEPE - 2022",
+    "Fuente : Atlas Digital de las Áreas Urbanas. SIOSE - 2014",
+    "Fuente : Atlas Digital de las Áreas Urbanas. Tesorería General de la Seguridad Social",
+    "Fuente : Atlas Digital de las Áreas Urbanas. Tesorería General de la Seguridad Social - 2023",
+    "Fuente : Dirección General de Catastro - 2024",
+    "Fuente : INE - 2023",
+    "Fuente : INE - 2024"
+  ],
+  "tipos_hallazgo": [
+    1
+  ],
+  "total_vacios": 32,
+  "generado": "2026-04-13T14:12:25.079283",
+  "archivo_excel": "matriz_ibeas_datos_exhaustiva_v4_todos_los_datos_OE.xlsx"
+}

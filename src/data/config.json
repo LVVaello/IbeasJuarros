@@ -1,0 +1,31 @@
+{
+  "proyecto": {
+    "nombre": "Diagnóstico Territorial de Ibeas de Juarros",
+    "subtitulo": "Agenda Urbana Española",
+    "municipio": "Ibeas de Juarros",
+    "provincia": "Burgos",
+    "comunidad": "Castilla y León",
+    "año": 2024,
+    "version": "1.0.0",
+    "descripcion": "Visor interactivo del diagnóstico territorial de Ibeas de Juarros elaborado en el marco de la Agenda Urbana Española."
+  },
+  "google_form": {
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfTs-vMGXy-LkDMaf2M2VK6S-Dlpi2nX31qi-op4mheKU9ZZA/viewform",
+    "url_base_prefill": "https://docs.google.com/forms/d/e/1FAIpQLSfTs-vMGXy-LkDMaf2M2VK6S-Dlpi2nX31qi-op4mheKU9ZZA/viewform?usp=pp_url",
+    "field_oe": "PENDIENTE_ENTRY_ID_OE",
+    "field_tipo": "PENDIENTE_ENTRY_ID_TIPO",
+    "comment_fields": "Para activar el prefill por OE: abre el formulario, click derecho > Inspeccionar sobre el campo 'Objetivo Estratégico', busca 'entry.XXXXXXX' y actualiza field_oe. Ver TODO.md."
+  },
+  "assets": {
+    "logo_agenda_urbana": "assets/logo-agenda-urbana.png",
+    "escudo_ayuntamiento": "assets/escudo-ibeas.png",
+    "favicon": "favicon.svg",
+    "comment": "Reemplazar los archivos en /public/assets/ por los originales. Ver TODO.md."
+  },
+  "datos": {
+    "es_placeholder": true,
+    "comment": "Cuando se procese el Excel real, este campo pasará a false automáticamente.",
+    "archivo_excel": "matriz_ibeas_datos_exhaustiva_v4_todos_los_datos_OE.xlsx",
+    "ultima_actualizacion": "2024-01-01"
+  }
+}

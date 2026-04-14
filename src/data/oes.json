@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "abreviatura": "OE 1",
+    "titulo": "Ordenar el territorio y hacer un uso racional del suelo, conservarlo y protegerlo",
+    "titulo_corto": "Territorio y suelo",
+    "descripcion": "Ordenar el territorio de manera que se haga un uso racional del suelo, asegurando su conservación y protección. Implica la planificación urbanística, la gestión de espacios naturales y la regulación del crecimiento urbano.",
+    "color": "#3d8c40",
+    "colorLight": "#e8f5e9",
+    "icono": "oe1"
+  },
+  {
+    "id": 2,
+    "abreviatura": "OE 2",
+    "titulo": "Evitar la dispersión urbana y revitalizar la ciudad existente",
+    "titulo_corto": "Ciudad existente",
+    "descripcion": "Frenar la expansión urbana desordenada y poner en valor el tejido urbano existente mediante la rehabilitación, la regeneración urbana y la densificación sostenible.",
+    "color": "#1a3a6b",
+    "colorLight": "#e3eaf5",
+    "icono": "oe2"
+  },
+  {
+    "id": 3,
+    "abreviatura": "OE 3",
+    "titulo": "Prevenir y reducir los efectos del cambio climático y mejorar la resiliencia",
+    "titulo_corto": "Cambio climático",
+    "descripcion": "Adaptarse a los efectos del cambio climático y mitigar sus causas, mejorando la resiliencia de los territorios frente a fenómenos extremos y reduciendo las emisiones de gases de efecto invernadero.",
+    "color": "#546e7a",
+    "colorLight": "#eceff1",
+    "icono": "oe3"
+  },
+  {
+    "id": 4,
+    "abreviatura": "OE 4",
+    "titulo": "Hacer una gestión sostenible de los recursos y favorecer la economía circular",
+    "titulo_corto": "Recursos y economía circular",
+    "descripcion": "Gestionar eficientemente los recursos naturales —agua, energía, suelo, materiales— y promover la economía circular para minimizar residuos y maximizar el aprovechamiento de los recursos.",
+    "color": "#e6a817",
+    "colorLight": "#fff8e1",
+    "icono": "oe4"
+  },
+  {
+    "id": 5,
+    "abreviatura": "OE 5",
+    "titulo": "Favorecer la proximidad y la movilidad sostenible",
+    "titulo_corto": "Movilidad sostenible",
+    "descripcion": "Promover modelos de movilidad sostenible que reduzcan la dependencia del vehículo privado, favoreciendo el transporte público, la movilidad activa y el acceso de proximidad a servicios y equipamientos.",
+    "color": "#f57f17",
+    "colorLight": "#fff3e0",
+    "icono": "oe5"
+  },
+  {
+    "id": 6,
+    "abreviatura": "OE 6",
+    "titulo": "Fomentar la cohesión social y buscar la equidad",
+    "titulo_corto": "Cohesión social",
+    "descripcion": "Garantizar la igualdad de oportunidades, el acceso equitativo a servicios públicos y equipamientos, y combatir la segregación social y espacial para promover una sociedad cohesionada.",
+    "color": "#d84315",
+    "colorLight": "#fbe9e7",
+    "icono": "oe6"
+  },
+  {
+    "id": 7,
+    "abreviatura": "OE 7",
+    "titulo": "Impulsar y favorecer la Economía Urbana",
+    "titulo_corto": "Economía urbana",
+    "descripcion": "Fortalecer la base económica local, apoyar el tejido empresarial, fomentar el empleo de calidad y diversificar las actividades económicas para garantizar el dinamismo y la competitividad del territorio.",
+    "color": "#c2185b",
+    "colorLight": "#fce4ec",
+    "icono": "oe7"
+  },
+  {
+    "id": 8,
+    "abreviatura": "OE 8",
+    "titulo": "Garantizar el acceso a la vivienda",
+    "titulo_corto": "Vivienda",
+    "descripcion": "Asegurar el acceso a una vivienda digna y adecuada para toda la población, promoviendo un parque residencial diverso, asequible y de calidad, y favoreciendo la rehabilitación frente a la nueva construcción.",
+    "color": "#6d4c41",
+    "colorLight": "#efebe9",
+    "icono": "oe8"
+  },
+  {
+    "id": 9,
+    "abreviatura": "OE 9",
+    "titulo": "Liderar y fomentar la innovación digital",
+    "titulo_corto": "Innovación digital",
+    "descripcion": "Aprovechar las oportunidades que ofrece la transformación digital para mejorar la calidad de vida, la eficiencia de los servicios públicos y la competitividad del territorio, garantizando el acceso universal.",
+    "color": "#b71c1c",
+    "colorLight": "#ffebee",
+    "icono": "oe9"
+  },
+  {
+    "id": 10,
+    "abreviatura": "OE 10",
+    "titulo": "Mejorar los instrumentos de intervención y la gobernanza",
+    "titulo_corto": "Gobernanza",
+    "descripcion": "Fortalecer las capacidades institucionales, mejorar los instrumentos de planificación y gestión, y avanzar hacia modelos de gobernanza participativa, transparente y eficiente.",
+    "color": "#6a1b9a",
+    "colorLight": "#f3e5f5",
+    "icono": "oe10"
+  }
+]

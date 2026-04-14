@@ -1,0 +1,17 @@
+[
+  { "id": "INE_PAD", "nombre": "Padrón Municipal de Habitantes", "organismo": "INE – Instituto Nacional de Estadística", "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=resultados", "tipo": "estadistica_oficial" },
+  { "id": "INE_CENS", "nombre": "Censo de Población y Viviendas", "organismo": "INE – Instituto Nacional de Estadística", "url": "https://www.ine.es/censos2021/", "tipo": "estadistica_oficial" },
+  { "id": "INE_MUN", "nombre": "Estadística Municipal de Empresas", "organismo": "INE – Instituto Nacional de Estadística", "url": "https://www.ine.es", "tipo": "estadistica_oficial" },
+  { "id": "SEPE", "nombre": "Estadísticas de Empleo", "organismo": "SEPE – Servicio Público de Empleo Estatal", "url": "https://www.sepe.es/HomeSepe/que-es-el-sepe/estadisticas.html", "tipo": "estadistica_oficial" },
+  { "id": "CATASTRO", "nombre": "Catastro Inmobiliario", "organismo": "Dirección General del Catastro", "url": "https://www.catastro.meh.es", "tipo": "registro_administrativo" },
+  { "id": "DGA_CYL", "nombre": "Sistema de Información Geográfica de Castilla y León", "organismo": "Junta de Castilla y León", "url": "https://www.jcyl.es", "tipo": "sig_oficial" },
+  { "id": "MITMA", "nombre": "Atlas de Vulnerabilidad Urbana", "organismo": "Ministerio de Transportes, Movilidad y Agenda Urbana", "url": "https://www.mitma.gob.es/urbanismo-y-suelo/urbanismo/atlas-vulnerabilidad-urbana", "tipo": "estadistica_oficial" },
+  { "id": "AEMET", "nombre": "Datos Climatológicos", "organismo": "AEMET – Agencia Estatal de Meteorología", "url": "https://www.aemet.es", "tipo": "estadistica_oficial" },
+  { "id": "MEFP", "nombre": "Estadísticas de Financiación Local", "organismo": "Ministerio de Hacienda y Función Pública", "url": "https://www.hacienda.gob.es/es-ES/CDI/Paginas/SistemasFinanciacionDeuda/InformacionEELLs/EELLs.aspx", "tipo": "estadistica_oficial" },
+  { "id": "RED_ELEC", "nombre": "Cobertura de Banda Ancha", "organismo": "Red.es / MITMA", "url": "https://www.red.es/redes/es/que-hacemos/banda-ancha", "tipo": "estadistica_oficial" },
+  { "id": "DIPUTACION_BU", "nombre": "Datos Municipales", "organismo": "Diputación Provincial de Burgos", "url": "https://www.diputaciondeburgos.es", "tipo": "administracion_local" },
+  { "id": "AYTO_IBEAS", "nombre": "Datos Municipales Propios", "organismo": "Ayuntamiento de Ibeas de Juarros", "url": "", "tipo": "administracion_local" },
+  { "id": "MITECO", "nombre": "Inventario Nacional de Emisiones", "organismo": "MITECO – Ministerio para la Transición Ecológica", "url": "https://www.miteco.gob.es", "tipo": "estadistica_oficial" },
+  { "id": "IDAE", "nombre": "Eficiencia Energética", "organismo": "IDAE – Instituto para la Diversificación y Ahorro de la Energía", "url": "https://www.idae.es", "tipo": "estadistica_oficial" },
+  { "id": "REGIO_CYL", "nombre": "Ficha Municipal", "organismo": "Consejería de Economía de Castilla y León", "url": "https://estadistica.jcyl.es", "tipo": "estadistica_oficial" }
+]
