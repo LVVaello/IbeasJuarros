@@ -37,28 +37,47 @@ export default function Home() {
       {/* HERO */}
       <section className="hero">
         <div className="container">
-          <div style={{ marginBottom: 'var(--space-md)' }}>
-            <div style={{
-              display: 'inline-block',
-              background: 'var(--color-accent)',
-              color: 'var(--color-primary-dark)',
-              padding: '0.2rem 0.75rem',
-              borderRadius: 'var(--radius-full)',
-              fontSize: '0.72rem',
-              fontWeight: 700,
-              fontFamily: 'var(--font-heading)',
-              letterSpacing: '0.06em',
-              textTransform: 'uppercase',
-              marginBottom: 'var(--space-sm)',
-            }}>
-              Agenda Urbana Española
+          {/* Cabecera institucional */}
+          <div style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-lg)', marginBottom: 'var(--space-lg)', flexWrap: 'wrap' }}>
+            <img
+              src="assets/escudo-ibeas.png"
+              alt="Escudo de Ibeas de Juarros"
+              style={{ height: 72, width: 'auto', filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.35))', flexShrink: 0 }}
+              onError={e => { e.target.style.display = 'none' }}
+            />
+            <div style={{ flex: 1 }}>
+              <div style={{
+                display: 'inline-block',
+                background: 'var(--color-accent)',
+                color: 'var(--color-primary-dark)',
+                padding: '0.2rem 0.75rem',
+                borderRadius: 'var(--radius-full)',
+                fontSize: '0.72rem',
+                fontWeight: 700,
+                fontFamily: 'var(--font-heading)',
+                letterSpacing: '0.06em',
+                textTransform: 'uppercase',
+                marginBottom: 'var(--space-sm)',
+              }}>
+                Agenda Urbana Española
+              </div>
+              <h1 style={{ margin: '0 0 0.3rem', lineHeight: 1.15 }}>
+                Diagnóstico Territorial
+              </h1>
+              <p style={{ fontSize: '1.15rem', margin: 0, color: 'rgba(255,255,255,0.85)', fontFamily: 'var(--font-heading)', fontWeight: 500 }}>
+                Ibeas de Juarros · Burgos · Castilla y León
+              </p>
             </div>
-            <h1 style={{ margin: '0 0 0.4rem', lineHeight: 1.15 }}>
-              Diagnóstico Territorial
-            </h1>
-            <p style={{ fontSize: '1.2rem', margin: 0, color: 'rgba(255,255,255,0.85)', fontFamily: 'var(--font-heading)', fontWeight: 500 }}>
-              Ibeas de Juarros · Burgos · Castilla y León
-            </p>
+            <img
+              src="assets/logo-agenda-urbana-ibeas.png"
+              alt="Agenda Urbana · Ibeas de Juarros"
+              className="hide-mobile"
+              style={{ height: 80, width: 'auto', flexShrink: 0 }}
+              onError={e => {
+                e.target.src = 'assets/logo-agenda-urbana.png'
+                e.target.onerror = () => { e.target.style.display = 'none' }
+              }}
+            />
           </div>
 
           <p style={{ maxWidth: 680, fontSize: '1.05rem', color: 'rgba(255,255,255,0.85)', marginBottom: 'var(--space-xl)', lineHeight: 1.75 }}>

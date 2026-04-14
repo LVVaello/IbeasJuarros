@@ -1,4 +1,5 @@
-/* SVG icons representativos para cada OE de la Agenda Urbana Española */
+/* Iconos OE: carga PNG oficial de public/assets con fallback SVG */
+import { useState } from 'react'
 
 const icons = {
   1: ({ color, size }) => (
@@ -105,7 +106,22 @@ const icons = {
 }
 
 export default function OEIcon({ id, color = '#1B3A6B', size = 32 }) {
+  const [useSvg, setUseSvg] = useState(false)
   const IconComp = icons[id]
+
+  if (!useSvg) {
+    return (
+      <img
+        src={`assets/OE${id}.png`}
+        alt={`OE ${id}`}
+        width={size}
+        height={size}
+        style={{ objectFit: 'contain', display: 'block' }}
+        onError={() => setUseSvg(true)}
+      />
+    )
+  }
+
   if (!IconComp) return null
   return <IconComp color={color} size={size} />
 }

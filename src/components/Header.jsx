@@ -23,11 +23,12 @@ export default function Header() {
             src="assets/escudo-ibeas.png"
             alt="Escudo de Ibeas de Juarros"
             className="header-escudo"
+            style={{ height: 40, width: 'auto' }}
             onError={e => { e.target.style.display = 'none' }}
           />
           <div className="header-title-group">
             <span className="header-municipio">Ibeas de Juarros</span>
-            <span className="header-subtitle">Diagnóstico · Agenda Urbana</span>
+            <span className="header-subtitle">Diagnóstico Territorial · Agenda Urbana</span>
           </div>
         </Link>
 
@@ -47,13 +48,17 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Logo Agenda Urbana */}
+        {/* Logo Agenda Urbana Ibeas */}
         <div className="header-logo-au hide-mobile">
           <img
-            src="assets/logo-agenda-urbana.png"
-            alt="Agenda Urbana Española"
-            style={{ height: 48, width: 'auto' }}
-            onError={e => { e.target.style.display = 'none' }}
+            src="assets/logo-agenda-urbana-ibeas.png"
+            alt="Agenda Urbana · Ibeas de Juarros"
+            style={{ height: 44, width: 'auto' }}
+            onError={e => {
+              // fallback al logo genérico AU España
+              e.target.src = 'assets/logo-agenda-urbana.png'
+              e.target.onerror = () => { e.target.style.display = 'none' }
+            }}
           />
         </div>
 
