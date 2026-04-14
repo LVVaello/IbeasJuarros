@@ -259,40 +259,136 @@
       ]
     },
     "4": {
-      "diagnostico": "El OE 4 (Gestión sostenible de recursos) cuenta con 8 registros, todos procedentes de la tipología edificatoria, con disponibilidad del 100%. Los datos recogen características del parque de edificios relevantes para la gestión de recursos —principalmente energía— pero la cobertura es limitada en relación con la amplitud del objetivo estratégico. Se identifica un vacío importante en indicadores de residuos, agua y economía circular.",
+      "diagnostico": "La lectura de la gestión sostenible de recursos en Ibeas de Juarros parte de la composición y antigüedad del parque edificado. Con 805 edificios anteriores a 1950, 556 entre 1950 y 1979 y 357 entre 1980 y 2000, más del 75% del stock construido es previo a los estándares actuales de eficiencia energética. Esta realidad sitúa la rehabilitación —no la nueva construcción— como la principal palanca de mejora en el consumo de recursos. Los datos sobre tipología edificatoria confirman el predominio de vivienda unifamiliar aislada o adosada (83,37% de los edificios con una sola vivienda), una tipología que, sin actualización energética, genera consumos de calefacción elevados en las condiciones climáticas de la meseta burgalesa. No se dispone de datos específicos sobre gestión de residuos o consumo de agua, pero la escala y función residencial del municipio permiten inferir que la demanda de recursos es coherente con su peso poblacional.",
       "conclusiones": [
-        { "id": "C-4-01", "titulo": "Cobertura limitada pero 100% disponible", "texto": "Los 8 indicadores disponibles ofrecen información valiosa sobre la tipología edificatoria, pero la cobertura de los aspectos de economía circular, residuos y agua es prácticamente nula en la matriz actual." }
+        {
+          "id": "C-4-01",
+          "titulo": "El parque edificado concentra el principal vector de mejora en eficiencia de recursos",
+          "texto": "Más del 75% de los edificios es anterior a los estándares actuales de eficiencia energética. La calefacción en el contexto climático burgalés representa el consumo más significativo, y la rehabilitación de la envolvente térmica es la medida con mayor potencial de reducción."
+        },
+        {
+          "id": "C-4-02",
+          "titulo": "El modelo de vivienda unifamiliar dificulta la transición energética por su alta dispersión",
+          "texto": "El 83,37% de edificios con una sola vivienda implica que las actuaciones de rehabilitación energética deben diseñarse para un parque muy fragmentado, lo que encarece los costes unitarios y requiere instrumentos de coordinación específicos."
+        }
       ],
       "retos": [
-        { "id": "R-4-01", "titulo": "Ampliar la base de datos sobre recursos y economía circular", "texto": "Incorporar datos de gestión de residuos, consumo de agua, eficiencia energética de edificios y energías renovables para construir un diagnóstico completo de este OE." }
+        {
+          "id": "R-4-01",
+          "titulo": "Priorizar la rehabilitación energética sobre la nueva construcción",
+          "texto": "La política de recursos en Ibeas debe orientarse a mejorar lo construido antes que a ampliar el parque. Rehabilitar los edificios más antiguos reduce consumos, mejora la habitabilidad y preserva el núcleo histórico, evitando al mismo tiempo el consumo de nuevo suelo."
+        },
+        {
+          "id": "R-4-02",
+          "titulo": "Explorar oportunidades de energía renovable a escala local",
+          "texto": "La disponibilidad de superficie forestal y agrícola, junto con la orientación y tipología edificatoria predominante, ofrece potencial para instalaciones de biomasa y solar fotovoltaica que reduzcan la dependencia energética externa del municipio."
+        }
       ],
       "propuestas": [
-        { "id": "P-4-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas de economía circular y gestión sostenible de recursos." }
+        {
+          "id": "P-4-01",
+          "titulo": "Integrar la rehabilitación energética en el programa de rehabilitación del núcleo histórico",
+          "texto": "Vincular la mejora de la eficiencia energética a las actuaciones de rehabilitación del parque anterior a 1950 y 1980, aprovechando los fondos del Plan de Recuperación y Resiliencia y las convocatorias autonómicas específicas.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-4-02",
+          "titulo": "Estudio de viabilidad de instalaciones de energía renovable a escala municipal",
+          "texto": "Encargar un estudio de viabilidad para instalaciones de biomasa forestal y solar fotovoltaica de autoconsumo que reduzcan la factura energética de los edificios municipales y ofrezcan un modelo replicable para la iniciativa privada.",
+          "prioridad": "media"
+        }
       ]
     },
     "5": {
-      "diagnostico": "El OE 5 (Movilidad sostenible) cuenta con 8 registros, procedentes del dataset comparativo y de datos de ocupación de suelo, con una disponibilidad del 87.5% (7 de 8). La posición de Ibeas de Juarros, en un corredor viario próximo a Burgos, determina un modelo de movilidad fuertemente dependiente del vehículo privado, con escasa oferta de transporte público y sin infraestructura específica para modos alternativos.",
+      "diagnostico": "La movilidad en Ibeas de Juarros está determinada por su condición de municipio residencial en la corona periurbana de Burgos. Con 768,33 vehículos domiciliados por cada 1.000 habitantes —muy por encima de la mediana comparativa— y el 68,86% del parque formado por turismos, el automóvil privado es prácticamente la única opción real de desplazamiento cotidiano. La antigüedad media del parque de vehículos alcanza los 19 años, lo que implica una flota con altas emisiones relativas. La superficie de infraestructuras de transporte (362 ha, 2,79% del término) refleja el peso que la red viaria tiene en la estructura del municipio. La oferta de transporte público hacia Burgos es muy limitada y no cubre la demanda de desplazamiento laboral en franjas horarias punta, lo que convierte el vehículo privado en una necesidad estructural para la mayor parte de la población activa.",
       "conclusiones": [
-        { "id": "C-5-01", "titulo": "Alta dependencia del vehículo privado", "texto": "La localización del municipio y la escasez de oferta de transporte público condicionan la movilidad cotidiana de sus residentes hacia el vehículo privado." }
+        {
+          "id": "C-5-01",
+          "titulo": "Dependencia estructural del vehículo privado sin alternativa real",
+          "texto": "Con 768,33 vehículos por cada 1.000 habitantes y ausencia de transporte público funcional hacia Burgos, el automóvil es la única opción viable para acceder al empleo, los servicios y los equipamientos. Esto genera exclusión para quienes no pueden conducir y una huella de carbono de movilidad elevada."
+        },
+        {
+          "id": "C-5-02",
+          "titulo": "Flota de vehículos envejecida que amplifica el impacto ambiental",
+          "texto": "La edad media del parque de 19 años implica que la flota dominante no incorpora tecnologías de reducción de emisiones. La renovación hacia vehículos más eficientes o eléctricos es un proceso lento que no resuelve por sí solo la dependencia estructural."
+        },
+        {
+          "id": "C-5-03",
+          "titulo": "La baja densidad urbana dificulta la viabilidad del transporte colectivo",
+          "texto": "El modelo residencial disperso de baja densidad hace difícil articular líneas de transporte colectivo con umbrales de demanda suficientes. Cualquier mejora de la movilidad pública debe acompañarse de una política de densificación y consolidación urbana."
+        }
       ],
       "retos": [
-        { "id": "R-5-01", "titulo": "Mejorar la conectividad en transporte público", "texto": "Evaluar opciones de mejora de la conexión con Burgos en transporte colectivo, especialmente en franjas horarias laborales." }
+        {
+          "id": "R-5-01",
+          "titulo": "Articular una conexión de transporte colectivo funcional con Burgos",
+          "texto": "El reto central es ofrecer una alternativa real al vehículo privado para los desplazamientos laborales cotidianos hacia Burgos. Esto requiere coordinación con la Diputación Provincial y el Ayuntamiento de Burgos, y un servicio adaptado a las franjas horarias de entrada y salida del trabajo."
+        },
+        {
+          "id": "R-5-02",
+          "titulo": "Mejorar la seguridad y la habitabilidad peatonal dentro del núcleo",
+          "texto": "Aunque la mayor parte de los desplazamientos son exteriores, dentro del núcleo urbano es posible mejorar las condiciones para el desplazamiento a pie, especialmente en los itinerarios entre zonas residenciales, equipamientos y espacios públicos."
+        }
       ],
       "propuestas": [
-        { "id": "P-5-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas de movilidad sostenible y proximidad." }
+        {
+          "id": "P-5-01",
+          "titulo": "Estudio de viabilidad de un servicio de transporte colectivo hacia Burgos",
+          "texto": "Promover, en coordinación con la Diputación de Burgos, un estudio de demanda y viabilidad de un servicio de transporte colectivo en franjas laborales que cubra el corredor Ibeas–Burgos, evaluando la modalidad de autobús de línea, bajo demanda o compartido.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-5-02",
+          "titulo": "Plan de mejora de la movilidad peatonal en el núcleo urbano",
+          "texto": "Identificar los itinerarios peatonales prioritarios dentro del núcleo, mejorar aceras, cruces y zonas de convivencia, y reducir la velocidad del tráfico rodado en las calles de uso residencial predominante.",
+          "prioridad": "media"
+        }
       ]
     },
     "6": {
-      "diagnostico": "El OE 6 (Cohesión social) es, junto con el OE 2, el más amplio del diagnóstico, con 129 registros y una disponibilidad del 90% (116 de 129). Incluye datos de estructura demográfica, paro, evolución de la población y características socioeconómicas. Los datos de población censal y padronal permiten analizar la evolución histórica y la estructura actual de la comunidad de Ibeas de Juarros.",
+      "diagnostico": "La estructura social de Ibeas de Juarros presenta una complejidad mayor de la que podría esperarse en un municipio de su tamaño. Con una edad media de 44,7 años, un índice de envejecimiento de 21,9 —por debajo de la mediana comparativa— y un índice de dependencia infantil de 22 —por encima de la referencia—, el municipio muestra un perfil demográfico más equilibrado que el de muchos pequeños municipios castellanos. La población total asciende a 1.459 habitantes (2024), con predominio masculino (766 hombres frente a 693 mujeres). Una parte relevante de la población procede de fuera del municipio, reflejo de la llegada de nuevos residentes en el ciclo de crecimiento suburbano; la población extranjera se sitúa en torno al 5% (73 personas). El desempleo, que alcanzó su máximo en 94 personas en 2012-2013, ha descendido a 37 en 2022, pero presenta un desequilibrio de género pronunciado: el 63,46% de las personas desempleadas son mujeres.",
       "conclusiones": [
-        { "id": "C-6-01", "titulo": "Envejecimiento y cambio en la estructura demográfica", "texto": "Los datos de evolución de la población y estructura de edades revelan los cambios en la composición de la comunidad local a lo largo del tiempo." },
-        { "id": "C-6-02", "titulo": "13 indicadores sin dato en cohesión social", "texto": "Los vacíos se concentran principalmente en indicadores de servicios sociales, equipamientos y exclusión, que requieren fuentes municipales directas." }
+        {
+          "id": "C-6-01",
+          "titulo": "Estructura demográfica más equilibrada que la media, pero con desequilibrio de género en el desempleo",
+          "texto": "El índice de envejecimiento (21,9) está por debajo de la mediana comparativa y la dependencia infantil (22) la supera, lo que refleja una pirámide relativamente compensada. Sin embargo, el 63,46% del paro corresponde a mujeres, un desequilibrio que requiere atención específica."
+        },
+        {
+          "id": "C-6-02",
+          "titulo": "Comunidad en recomposición: mayoría de residentes no nacidos en el municipio",
+          "texto": "La recuperación demográfica de los años 2000 se apoya en la llegada de nuevos residentes, no en el crecimiento de la población autóctona. Esto convierte a Ibeas en una comunidad en proceso de construcción de vínculos, donde la cohesión no puede darse por supuesta sino que debe cultivarse activamente."
+        },
+        {
+          "id": "C-6-03",
+          "titulo": "Descenso del desempleo pero con riesgo de exclusión para colectivos específicos",
+          "texto": "La caída del paro desde el pico de la crisis (94 personas en 2012) hasta 37 en 2022 es positiva. Sin embargo, la concentración femenina del desempleo (63,46%) y el peso relativo de los mayores de 45 años en las personas desempleadas apuntan a colectivos con mayor dificultad de inserción laboral."
+        }
       ],
       "retos": [
-        { "id": "R-6-01", "titulo": "Garantizar el acceso a servicios básicos para una población envejecida", "texto": "El envejecimiento de la población requiere adaptar los servicios y equipamientos a las necesidades de un perfil demográfico mayoritariamente mayor." }
+        {
+          "id": "R-6-01",
+          "titulo": "Reducir el desequilibrio de género en el empleo local",
+          "texto": "La alta proporción de paro femenino, en un municipio donde la mayor parte del empleo se genera fuera del término, exige políticas activas de inserción y formación orientadas a mujeres, aprovechando los programas de la Junta de Castilla y León y los fondos europeos disponibles."
+        },
+        {
+          "id": "R-6-02",
+          "titulo": "Fortalecer la cohesión en una comunidad de nueva composición",
+          "texto": "Con una mayoría de residentes llegados desde fuera, el municipio necesita espacios y actividades que generen pertenencia, vínculos intergeneracionales y participación cívica. La vida asociativa, los equipamientos comunitarios y los servicios de proximidad son herramientas clave."
+        }
       ],
       "propuestas": [
-        { "id": "P-6-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas de cohesión social y equidad." }
+        {
+          "id": "P-6-01",
+          "titulo": "Programa de activación laboral para mujeres en situación de desempleo",
+          "texto": "Diseñar, en coordinación con los servicios de empleo de la Junta de Castilla y León, un programa de orientación, formación y acompañamiento laboral específico para mujeres desempleadas del municipio, con atención especial a los sectores con mayor potencial de empleo local.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-6-02",
+          "titulo": "Reforzar los espacios y actividades de cohesión comunitaria",
+          "texto": "Identificar y potenciar los equipamientos y actividades que favorecen la vida comunitaria (espacio cívico, actividades culturales y deportivas, servicios para mayores), como palanca de integración para los nuevos residentes y de mantenimiento de la calidad de vida para los ya establecidos.",
+          "prioridad": "media"
+        }
       ]
     },
     "7": {
