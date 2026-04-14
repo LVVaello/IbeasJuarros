@@ -39,12 +39,6 @@ export default function Home() {
         <div className="container">
           {/* Cabecera institucional */}
           <div style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-lg)', marginBottom: 'var(--space-lg)', flexWrap: 'wrap' }}>
-            <img
-              src="assets/escudo-ibeas.png?v=2"
-              alt="Escudo de Ibeas de Juarros"
-              style={{ height: 72, width: 'auto', filter: 'drop-shadow(0 1px 4px rgba(0,0,0,0.12))', flexShrink: 0 }}
-              onError={e => { e.target.style.display = 'none' }}
-            />
             <div style={{ flex: 1 }}>
               <div style={{
                 display: 'inline-block',
@@ -68,16 +62,28 @@ export default function Home() {
                 Ibeas de Juarros · Burgos · Castilla y León
               </p>
             </div>
-            <img
-              src="assets/logo-agenda-urbana-ibeas.png"
-              alt="Agenda Urbana · Ibeas de Juarros"
-              className="hide-mobile"
-              style={{ height: 80, width: 'auto', flexShrink: 0 }}
-              onError={e => {
-                e.target.src = 'assets/logo-agenda-urbana.png'
-                e.target.onerror = () => { e.target.style.display = 'none' }
-              }}
-            />
+            <div className="hide-mobile" style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 'var(--space-lg)',
+              flexShrink: 0,
+              paddingLeft: 'var(--space-lg)',
+              borderLeft: '1px solid var(--color-border)',
+              alignSelf: 'center',
+            }}>
+              <img
+                src="assets/logo-agenda-urbana-ibeas.png"
+                alt="Agenda Urbana · Ibeas de Juarros"
+                style={{ height: 64, width: 'auto' }}
+                onError={e => { e.target.style.display = 'none' }}
+              />
+              <img
+                src="assets/logo-agenda-urbana.png"
+                alt="Agenda Urbana Española"
+                style={{ height: 64, width: 'auto' }}
+                onError={e => { e.target.style.display = 'none' }}
+              />
+            </div>
           </div>
 
           <p style={{ maxWidth: 680, fontSize: '1.05rem', color: 'var(--color-text-secondary)', marginBottom: 'var(--space-xl)', lineHeight: 1.75 }}>
