@@ -42,7 +42,7 @@ export default function Home() {
             <img
               src="assets/escudo-ibeas.png?v=2"
               alt="Escudo de Ibeas de Juarros"
-              style={{ height: 72, width: 'auto', filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.35))', flexShrink: 0 }}
+              style={{ height: 72, width: 'auto', filter: 'drop-shadow(0 1px 4px rgba(0,0,0,0.12))', flexShrink: 0 }}
               onError={e => { e.target.style.display = 'none' }}
             />
             <div style={{ flex: 1 }}>
@@ -64,7 +64,7 @@ export default function Home() {
               <h1 style={{ margin: '0 0 0.3rem', lineHeight: 1.15 }}>
                 Diagnóstico Territorial
               </h1>
-              <p style={{ fontSize: '1.15rem', margin: 0, color: 'rgba(255,255,255,0.85)', fontFamily: 'var(--font-heading)', fontWeight: 500 }}>
+              <p style={{ fontSize: '1.15rem', margin: 0, color: 'var(--color-text-secondary)', fontFamily: 'var(--font-heading)', fontWeight: 500 }}>
                 Ibeas de Juarros · Burgos · Castilla y León
               </p>
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
             />
           </div>
 
-          <p style={{ maxWidth: 680, fontSize: '1.05rem', color: 'rgba(255,255,255,0.85)', marginBottom: 'var(--space-xl)', lineHeight: 1.75 }}>
+          <p style={{ maxWidth: 680, fontSize: '1.05rem', color: 'var(--color-text-secondary)', marginBottom: 'var(--space-xl)', lineHeight: 1.75 }}>
             {presentacion}
           </p>
 
@@ -88,7 +88,7 @@ export default function Home() {
             <Link to="/diagnostico" className="btn btn-accent btn-lg">
               Leer el diagnóstico
             </Link>
-            <Link to="/objetivos" className="btn btn-outline-white btn-lg">
+            <Link to="/objetivos" className="btn btn-outline btn-lg">
               Ver los 10 OE
             </Link>
           </div>
