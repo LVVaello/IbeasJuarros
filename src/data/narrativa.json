@@ -392,54 +392,182 @@
       ]
     },
     "7": {
-      "diagnostico": "El OE 7 (Economía urbana) cuenta con 101 registros procedentes del dataset comparativo, datos de estructura productiva (paro y trabajadores/establecimientos), ocupación de suelo y tipología edificatoria. La disponibilidad es del 84% (85 de 101). El diagnóstico refleja una economía local de pequeña escala, con escaso tejido empresarial propio y una importante dependencia funcional de Burgos.",
+      "diagnostico": "La economía local de Ibeas de Juarros es reducida en escala pero muestra una evolución positiva y estable. Los trabajadores afiliados a la Seguridad Social crecen de 242 en 2007 a 283 en 2023, y el número de establecimientos pasa de 37 a 41 en el mismo período. La estructura sectorial está fuertemente terciarizada: 218 de los 283 trabajadores se concentran en servicios (77%), frente a 32 en agricultura, 22 en construcción y 11 en industria. Los establecimientos siguen la misma pauta: 30 en servicios y solo 5 en agricultura. El paro descendió desde el máximo de la crisis (94 personas en 2012-2013) hasta 37 en 2022, aunque la proporción de paro femenino (63,46%) evidencia un mercado laboral local con desequilibrios de género significativos. La lectura de conjunto apunta a un municipio cuya economía funciona fundamentalmente como soporte de la función residencial, sin haber desarrollado una base productiva propia diversificada.",
       "conclusiones": [
-        { "id": "C-7-01", "titulo": "Base económica local limitada", "texto": "El análisis de la estructura productiva muestra un municipio con escaso tejido empresarial propio, donde la mayoría de la actividad económica de sus residentes se desarrolla fuera del término municipal." },
-        { "id": "C-7-02", "titulo": "16 indicadores sin dato en economía", "texto": "Los vacíos se concentran en indicadores de actividad turística, comercio local y sectores innovadores, que requieren trabajo de campo específico." }
+        {
+          "id": "C-7-01",
+          "titulo": "Economía local estable pero pequeña, muy terciarizada y dependiente de la función residencial",
+          "texto": "Con 283 trabajadores y 41 establecimientos, el tejido económico local es funcional pero insuficiente para generar empleo de proximidad para la mayoría de los residentes activos. Los servicios dominan (77%), en coherencia con un municipio que atiende principalmente las necesidades cotidianas de su población residente."
+        },
+        {
+          "id": "C-7-02",
+          "titulo": "Recuperación del empleo tras la crisis, con desequilibrio de género persistente",
+          "texto": "El descenso del paro desde 94 personas (2012) hasta 37 (2022) es una mejora real. Sin embargo, el 63,46% del desempleo recae en mujeres, lo que indica que la recuperación no ha sido homogénea y que persisten barreras de acceso al empleo por razón de género."
+        },
+        {
+          "id": "C-7-03",
+          "titulo": "Potencial económico infrautilizado: entorno natural, proximidad a Burgos y base agrícola",
+          "texto": "El 31,55% de suelo agrícola, la cobertura forestal, la proximidad a Burgos y el incremento de residentes con alto nivel de cualificación ofrecen oportunidades económicas que la estructura actual no está aprovechando: turismo de naturaleza, agroalimentario de calidad, servicios de proximidad y trabajo en remoto."
+        }
       ],
       "retos": [
-        { "id": "R-7-01", "titulo": "Diversificar y fortalecer la economía local", "texto": "Identificar oportunidades de desarrollo económico aprovechando la posición estratégica del municipio: turismo, agricultura de calidad, economía residencial y actividad emprendedora." }
+        {
+          "id": "R-7-01",
+          "titulo": "Diversificar la base económica local más allá de la función residencial",
+          "texto": "El principal reto económico es reducir la monofuncionalidad residencial generando condiciones para el asentamiento de actividad productiva propia: pequeño comercio, servicios especializados, actividad agroalimentaria, hostelería de entorno natural y atracción de trabajo en remoto."
+        },
+        {
+          "id": "R-7-02",
+          "titulo": "Corregir el desequilibrio de género en el acceso al empleo local",
+          "texto": "La concentración del desempleo en mujeres requiere políticas activas de inserción y formación, pero también una revisión de las condiciones que dificultan el acceso femenino al mercado laboral local: disponibilidad de servicios de cuidado, movilidad y oferta formativa accesible."
+        }
       ],
       "propuestas": [
-        { "id": "P-7-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas de impulso a la economía urbana y el empleo local." }
+        {
+          "id": "P-7-01",
+          "titulo": "Estrategia de activación económica local con enfoque en recursos propios del territorio",
+          "texto": "Definir una estrategia de desarrollo económico que identifique los nichos de actividad compatibles con el carácter del municipio: turismo de naturaleza, productos agroalimentarios locales, hostelería rural y captación de trabajadores en remoto mediante mejora de conectividad y oferta residencial atractiva.",
+          "prioridad": "media"
+        },
+        {
+          "id": "P-7-02",
+          "titulo": "Programa de apoyo al emprendimiento y al pequeño comercio local",
+          "texto": "Establecer, en coordinación con la Diputación de Burgos y las cámaras de comercio, un programa de acompañamiento a iniciativas de autoempleo y pequeño negocio local, con especial atención a proyectos liderados por mujeres.",
+          "prioridad": "media"
+        }
       ]
     },
     "8": {
-      "diagnostico": "El OE 8 (Vivienda) cuenta con 45 registros procedentes del dataset comparativo, tipología edificatoria, vivienda y ocupación de suelo, con una disponibilidad del 89% (40 de 45). Los datos permiten caracterizar el parque residencial del municipio en cuanto a dimensión, antigüedad, tipología y disponibilidad, identificando tanto las oportunidades de rehabilitación como los posibles déficits de vivienda asequible.",
+      "diagnostico": "La vivienda es uno de los ámbitos más reveladores del diagnóstico de Ibeas de Juarros. El parque residencial registra 534 viviendas de uso principal en 2011, con una ratio de 891,44 viviendas por cada 1.000 habitantes según el indicador comparativo. El 83,37% de los edificios corresponde a vivienda unifamiliar, reflejo del modelo de crecimiento suburbano de baja densidad. El parque creció un 31,65% entre 2011 y 2021 —muy por encima de la mediana comparativa— mientras que los hogares solo crecieron un 12,9% en el mismo período, lo que apunta a una producción de vivienda superior a la demanda efectiva. El dato más llamativo es el volumen de viviendas previstas en áreas de desarrollo respecto al parque existente, que alcanza el 976,84%, una proporción que evidencia una capacidad urbanística muy desproporcionada con respecto a la escala real del municipio. La accesibilidad a la vivienda en propiedad presenta tensión comparativa, lo que indica que construir más no equivale automáticamente a mejorar el acceso.",
       "conclusiones": [
-        { "id": "C-8-01", "titulo": "Parque de vivienda caracterizado con buena disponibilidad", "texto": "Los datos de catastro, padrón y atlas digital permiten una caracterización sólida del parque residencial municipal." },
-        { "id": "C-8-02", "titulo": "5 indicadores sin dato en vivienda", "texto": "Los vacíos se concentran en indicadores de asequibilidad y precios de mercado, que son más difíciles de obtener para municipios pequeños." }
+        {
+          "id": "C-8-01",
+          "titulo": "Sobreproducción residencial relativa: el parque ha crecido mucho más que los hogares",
+          "texto": "El crecimiento del parque de vivienda (31,65% entre 2011 y 2021) supera con amplitud el crecimiento de hogares (12,9%). Esto indica que una parte de la nueva vivienda no responde a demanda real de residencia principal, sino a inversión, segunda residencia u otros usos."
+        },
+        {
+          "id": "C-8-02",
+          "titulo": "Capacidad urbanística muy superior a la demanda previsible",
+          "texto": "Las viviendas previstas en áreas de desarrollo representan el 976,84% del parque existente. Esta desproporción entre planeamiento y realidad demográfica es un riesgo de crecimiento desordenado que el municipio debe gestionar activamente mediante la revisión del planeamiento."
+        },
+        {
+          "id": "C-8-03",
+          "titulo": "Accesibilidad a la vivienda en propiedad bajo tensión comparativa",
+          "texto": "El indicador de accesibilidad a la vivienda en propiedad (111,26%) refleja tensión en el esfuerzo económico necesario para acceder a la vivienda, pese a ser un municipio pequeño. La influencia del mercado inmobiliario de Burgos puede presionar los precios en la corona periurbana."
+        }
       ],
       "retos": [
-        { "id": "R-8-01", "titulo": "Garantizar el acceso a vivienda asequible", "texto": "Analizar las condiciones del mercado residencial local y la adecuación del parque de viviendas a las necesidades actuales y futuras de la población." }
+        {
+          "id": "R-8-01",
+          "titulo": "Ajustar la capacidad urbanística a la demanda real y contener el crecimiento residencial extensivo",
+          "texto": "La revisión del planeamiento debe reducir el suelo previsto para desarrollo residencial a niveles coherentes con las perspectivas demográficas, priorizando la consolidación del tejido existente frente a la extensión de nuevas áreas de baja densidad."
+        },
+        {
+          "id": "R-8-02",
+          "titulo": "Mejorar la asequibilidad y diversificar la oferta residencial",
+          "texto": "El mercado local está dominado por vivienda unifamiliar en propiedad. Promover fórmulas de vivienda asequible —alquiler, cohousing, vivienda pública— puede ampliar el acceso y atraer a jóvenes y a perfiles de población que no pueden acceder a la propiedad."
+        }
       ],
       "propuestas": [
-        { "id": "P-8-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas de acceso a la vivienda y rehabilitación." }
+        {
+          "id": "P-8-01",
+          "titulo": "Revisión del planeamiento con ajuste de la capacidad de desarrollo residencial",
+          "texto": "Incluir en la revisión del PGOU una reducción del suelo urbanizable residencial a niveles proporcionales a la demanda real, desclasificando o reorientando los suelos de desarrollo que no responden a necesidades actuales ni previsibles.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-8-02",
+          "titulo": "Explorar fórmulas de vivienda asequible para jóvenes y nuevos residentes",
+          "texto": "Estudiar la viabilidad de reservas de suelo o edificios para vivienda en alquiler asequible o en régimen de cesión de uso, en coordinación con la Junta de Castilla y León, para ampliar la oferta residencial más allá de la vivienda unifamiliar en propiedad.",
+          "prioridad": "media"
+        }
       ]
     },
     "9": {
-      "diagnostico": "El OE 9 (Innovación digital) no cuenta con ningún indicador en la matriz de diagnóstico actual. Este es el principal vacío de información identificado en el proceso de diagnóstico. La ausencia de datos sobre conectividad, cobertura de banda ancha, servicios digitales municipales y brecha digital impide realizar un análisis de la situación actual del municipio en esta dimensión.",
+      "diagnostico": "OE 9 es el objetivo con menor soporte empírico en el diagnóstico: la base estadística integrada no incluye indicadores específicos sobre conectividad, digitalización empresarial, uso de servicios electrónicos o brecha digital. Esta ausencia es en sí misma una señal técnica relevante: el municipio carece de un sistema de medición de su realidad digital. En el contexto de un municipio de perfil periurbano con población diversa en edad y origen, la transformación digital presenta dos dimensiones críticas. La primera es la infraestructura: la cobertura de banda ancha de calidad en entornos rurales próximos a capitales de provincia ha mejorado en los últimos años en Castilla y León, pero su disponibilidad efectiva en Ibeas no puede verificarse con los datos actuales. La segunda es la brecha: una población con una edad media de 44,7 años y un núcleo histórico de vecinos de mayor edad puede presentar dificultades de acceso y uso de servicios digitales que requieren atención específica.",
       "conclusiones": [
-        { "id": "C-9-01", "titulo": "Vacío de información total en innovación digital", "texto": "La matriz de diagnóstico no incluye ningún indicador para el OE 9. Este es el vacío más significativo del diagnóstico y debe subsanarse de forma prioritaria." }
+        {
+          "id": "C-9-01",
+          "titulo": "Ausencia de indicadores propios que impide diagnosticar la situación digital del municipio",
+          "texto": "No se dispone de datos sobre cobertura, uso o capacidades digitales en el municipio. Esta laguna no es un problema menor: sin información no es posible diseñar políticas, solicitar inversiones ni evaluar brechas. Construir ese conocimiento es la primera actuación necesaria en este OE."
+        },
+        {
+          "id": "C-9-02",
+          "titulo": "Riesgo de brecha digital para segmentos de mayor edad de la población",
+          "texto": "Con una edad media de 44,7 años y una fracción relevante de población mayor, el municipio puede presentar dificultades de acceso y uso de servicios digitales, especialmente en trámites administrativos, telemedicina y servicios bancarios en proceso de digitalización."
+        }
       ],
       "retos": [
-        { "id": "R-9-01", "titulo": "Construir el diagnóstico digital desde cero", "texto": "Recopilar datos específicos sobre cobertura de telecomunicaciones, uso de servicios digitales, equipamiento tecnológico y competencias digitales de la población y la administración local." }
+        {
+          "id": "R-9-01",
+          "titulo": "Construir una base de conocimiento sobre la realidad digital del municipio",
+          "texto": "El primer reto es medir: verificar la cobertura de banda ancha disponible, identificar los segmentos de población con menor competencia digital y evaluar el nivel de digitalización de los servicios municipales y del tejido económico local."
+        },
+        {
+          "id": "R-9-02",
+          "titulo": "Garantizar conectividad de calidad y reducir la brecha digital",
+          "texto": "Asegurar que todos los hogares y espacios públicos disponen de acceso a banda ancha de calidad, y que los residentes con menor competencia digital tienen acceso a formación y acompañamiento para el uso de servicios digitales esenciales."
+        }
       ],
       "propuestas": [
-        { "id": "P-9-01", "titulo": "Desarrollar un diagnóstico digital específico", "texto": "Diseñar una encuesta o proceso de recopilación de datos que permita caracterizar la situación de Ibeas de Juarros en materia de innovación y transformación digital.", "prioridad": "alta" }
+        {
+          "id": "P-9-01",
+          "titulo": "Diagnóstico digital municipal: conectividad, usos y capacidades",
+          "texto": "Realizar un diagnóstico específico de la situación digital del municipio mediante encuesta a hogares y negocios, en coordinación con la Diputación de Burgos, que permita identificar la cobertura real, los usos efectivos y las brechas existentes.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-9-02",
+          "titulo": "Programa de alfabetización digital para residentes mayores",
+          "texto": "Diseñar, en coordinación con los servicios sociales de la Diputación y la red de centros de adultos de la Junta, un programa de talleres de competencias digitales básicas orientado a residentes mayores, con especial foco en trámites administrativos y servicios de salud en línea.",
+          "prioridad": "media"
+        }
       ]
     },
     "10": {
-      "diagnostico": "El OE 10 (Gobernanza) cuenta con 5 registros del dataset comparativo multicriterio, con disponibilidad del 80% (5 con dato, aunque el resumen indica 1 no disponible en la fuente original). La gobernanza local en un municipio de pequeño tamaño presenta características específicas: limitaciones de recursos técnicos y económicos, alta dependencia de administraciones superiores y necesidad de fórmulas de cooperación intermunicipal para afrontar los retos de la Agenda Urbana.",
+      "diagnostico": "La gobernanza de Ibeas de Juarros se enfrenta a los retos estructurales de un municipio pequeño con capacidad administrativa limitada pero responsabilidades crecientes. El dato más expresivo en clave de gobernanza es la fecha del planeamiento urbanístico vigente: 2003. Un PGOU de más de veinte años ha operado durante el período de mayor transformación del municipio —el ciclo de crecimiento suburbano de los años 2000, la crisis de 2008-2013 y la estabilización posterior—, sin una revisión que ajuste los instrumentos a la realidad actual. La escala del municipio implica que la capacidad técnica propia es reducida y que la mayor parte de los servicios especializados —urbanismo, servicios sociales, medio ambiente— dependen de la Diputación Provincial o de la Junta de Castilla y León. Esto condiciona los tiempos y la autonomía de decisión municipal, y exige una estrategia de gobernanza que aproveche los marcos de cooperación disponibles.",
       "conclusiones": [
-        { "id": "C-10-01", "titulo": "Cobertura mínima del OE de gobernanza", "texto": "Con solo 5 registros, el OE 10 es el menos cubierto en términos cuantitativos. Los datos disponibles del dataset comparativo ofrecen una primera referencia de posicionamiento." }
+        {
+          "id": "C-10-01",
+          "titulo": "Planeamiento de 2003 inadecuado para gobernar el municipio actual",
+          "texto": "El PGOU vigente fue aprobado antes del ciclo suburbano que transformó el municipio. Sus clasificaciones de suelo, densidades y previsiones de crecimiento no se corresponden con la realidad de 2024 ni con las tendencias previsibles, lo que reduce la eficacia de la gobernanza territorial."
+        },
+        {
+          "id": "C-10-02",
+          "titulo": "Capacidad técnica municipal limitada, compensada parcialmente por cooperación supramunicipal",
+          "texto": "La administración local de un municipio de 1.400 habitantes no puede sostener por sí sola el aparato técnico necesario para abordar todos los retos de la Agenda Urbana. La Diputación Provincial de Burgos y la Junta de Castilla y León son socios institucionales indispensables para cualquier estrategia de mejora."
+        },
+        {
+          "id": "C-10-03",
+          "titulo": "Necesidad de un sistema de seguimiento territorial para la toma de decisiones",
+          "texto": "El diagnóstico actual evidencia que el municipio no dispone de un sistema propio de seguimiento de indicadores territoriales. Decisiones tan relevantes como la revisión del planeamiento, la gestión de servicios o la atracción de inversión requieren información actualizada y sistematizada."
+        }
       ],
       "retos": [
-        { "id": "R-10-01", "titulo": "Fortalecer la capacidad de gestión municipal", "texto": "Desarrollar las capacidades técnicas y de gestión del Ayuntamiento para abordar los retos de la Agenda Urbana, aprovechando fórmulas de cooperación intermunicipal y el apoyo de la Diputación Provincial." },
-        { "id": "R-10-02", "titulo": "Mejorar la participación ciudadana en el proceso de planificación", "texto": "Diseñar canales efectivos de participación que permitan involucrar a la ciudadanía en la elaboración de las propuestas de la Agenda Urbana." }
+        {
+          "id": "R-10-01",
+          "titulo": "Actualizar los instrumentos de planificación y gestión territorial",
+          "texto": "La revisión del PGOU es el instrumento central de gobernanza territorial. Debe abordarse con el apoyo técnico de la Diputación y con un proceso participativo que permita construir un consenso social sobre el modelo de municipio que se quiere consolidar."
+        },
+        {
+          "id": "R-10-02",
+          "titulo": "Construir capacidad de seguimiento y evaluación de la Agenda Urbana",
+          "texto": "Ibeas necesita un sistema sencillo pero estable de seguimiento de los indicadores clave de la Agenda Urbana: demografía, empleo, vivienda, movilidad y sostenibilidad. Este sistema debe ser actualizable con fuentes oficiales y permitir evaluar el impacto de las decisiones adoptadas."
+        }
       ],
       "propuestas": [
-        { "id": "P-10-01", "titulo": "[Pendiente de elaboración participativa]", "texto": "Espacio reservado para propuestas de mejora de la gobernanza e instrumentos de intervención." }
+        {
+          "id": "P-10-01",
+          "titulo": "Impulsar la revisión del PGOU con apoyo técnico de la Diputación",
+          "texto": "Formalizar la solicitud de asistencia técnica a la Diputación Provincial de Burgos para iniciar el proceso de revisión del planeamiento urbanístico, incorporando desde el inicio un proceso de participación ciudadana que recoja las expectativas y necesidades de los residentes.",
+          "prioridad": "alta"
+        },
+        {
+          "id": "P-10-02",
+          "titulo": "Implantar un sistema básico de seguimiento de indicadores de la Agenda Urbana",
+          "texto": "Establecer un tablero de seguimiento anual de los indicadores clave del diagnóstico —población, empleo, vivienda, movilidad, energía— que permita al Ayuntamiento tomar decisiones informadas y rendir cuentas a la ciudadanía sobre la evolución del municipio.",
+          "prioridad": "media"
+        }
       ]
     }
   }
