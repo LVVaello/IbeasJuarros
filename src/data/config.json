@@ -10,8 +10,8 @@
     "descripcion": "Visor interactivo del diagnóstico territorial de Ibeas de Juarros elaborado en el marco de la Agenda Urbana Española."
   },
   "google_form": {
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfTs-vMGXy-LkDMaf2M2VK6S-Dlpi2nX31qi-op4mheKU9ZZA/viewform",
-    "url_base_prefill": "https://docs.google.com/forms/d/e/1FAIpQLSfTs-vMGXy-LkDMaf2M2VK6S-Dlpi2nX31qi-op4mheKU9ZZA/viewform?usp=pp_url",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSd8BfuqYB4gulRUJlZy8OgfXpS4xYeSYY2BDLG3676G0S6t4Q/viewform",
+    "url_base_prefill": "https://docs.google.com/forms/d/e/1FAIpQLSd8BfuqYB4gulRUJlZy8OgfXpS4xYeSYY2BDLG3676G0S6t4Q/viewform?usp=pp_url",
     "field_oe": "PENDIENTE_ENTRY_ID_OE",
     "field_tipo": "PENDIENTE_ENTRY_ID_TIPO",
     "comment_fields": "Para activar el prefill por OE: abre el formulario, click derecho > Inspeccionar sobre el campo 'Objetivo Estratégico', busca 'entry.XXXXXXX' y actualiza field_oe. Ver TODO.md."
