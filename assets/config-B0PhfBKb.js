@@ -1,0 +1,1 @@
+const o={url:"https://docs.google.com/forms/d/e/1FAIpQLSd8BfuqYB4gulRUJlZy8OgfXpS4xYeSYY2BDLG3676G0S6t4Q/viewform",url_base_prefill:"https://docs.google.com/forms/d/e/1FAIpQLSd8BfuqYB4gulRUJlZy8OgfXpS4xYeSYY2BDLG3676G0S6t4Q/viewform?usp=pp_url",field_oe:"PENDIENTE_ENTRY_ID_OE"},e={google_form:o};export{e as c};
