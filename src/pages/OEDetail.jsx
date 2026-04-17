@@ -7,7 +7,7 @@ import config from '../data/config.json'
 import Breadcrumb from '../components/Breadcrumb'
 import OEIcon from '../components/OEIcon'
 
-const TABS = ['Diagnóstico', 'Conclusiones', 'Retos', 'Propuestas', 'Datos']
+const TABS = ['Diagnóstico', 'Conclusiones', 'Retos', 'Datos']
 
 function buildFormUrl(oeId) {
   const { url_base_prefill, field_oe } = config.google_form
@@ -367,24 +367,6 @@ export default function OEDetail() {
             placeholder="Los retos de este OE se añadirán próximamente en narrativa.json"
             color={oe.color}
           />
-        )}
-
-        {/* TAB: PROPUESTAS */}
-        {tab === 'Propuestas' && (
-          <>
-            <ListaTab
-              titulo="Propuestas"
-              items={nText?.propuestas?.filter(p => !p.titulo?.includes('Pendiente'))}
-              placeholder={null}
-              color={oe.color}
-            />
-            <div className="alert alert-info" style={{ marginTop: 'var(--space-md)' }}>
-              <strong>¿Tienes una propuesta para este objetivo?</strong>{' '}
-              <a href={buildFormUrl(oe.id)} target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', fontWeight: 700 }}>
-                Envía tu aportación →
-              </a>
-            </div>
-          </>
         )}
 
         <hr className="divider" />

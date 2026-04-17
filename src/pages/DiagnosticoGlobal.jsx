@@ -133,56 +133,6 @@ export default function DiagnosticoGlobal() {
           </div>
         </section>
 
-        {/* PROPUESTAS */}
-        <section className="section">
-          <h2 className="section-title">Propuestas</h2>
-          {global.propuestas?.some(p => p.titulo?.includes('Pendiente')) ? (
-            <div className="alert alert-info">
-              <strong>En elaboración.</strong> Las propuestas globales se construirán a partir del proceso participativo.
-              Puedes <Link to="/aportaciones" style={{ color: 'inherit', fontWeight: 700 }}>enviar tu aportación aquí</Link>.
-            </div>
-          ) : (
-            <div className="narrativa-block">
-              <ul className="narrativa-list">
-                {global.propuestas?.map(p => (
-                  <li key={p.id}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-sm)', flexWrap: 'wrap' }}>
-                      <strong>{p.titulo}</strong>
-                      {p.prioridad && p.prioridad !== 'pendiente' && (
-                        <span className={`badge badge-${p.prioridad === 'alta' ? 'danger' : 'warning'}`} style={{ fontSize: '0.68rem' }}>
-                          {p.prioridad}
-                        </span>
-                      )}
-                    </div>
-                    <p style={{ fontSize: '0.925rem', color: 'var(--color-text-secondary)', margin: '0.3rem 0 0', lineHeight: 1.7 }}>{p.texto}</p>
-                    {p.oe_relacionados?.length > 0 && (
-                      <div style={{ marginTop: '0.5rem', display: 'flex', gap: '0.25rem', flexWrap: 'wrap' }}>
-                        {p.oe_relacionados.map(id => {
-                          const oe = oes.find(o => o.id === id)
-                          return oe ? (
-                            <Link key={id} to={`/objetivos/${id}`} style={{
-                              display: 'inline-block',
-                              padding: '0.1rem 0.5rem',
-                              background: oe.colorLight,
-                              color: oe.color,
-                              borderRadius: 'var(--radius-full)',
-                              fontSize: '0.68rem',
-                              fontWeight: 700,
-                              textDecoration: 'none',
-                            }}>
-                              {oe.abreviatura}
-                            </Link>
-                          ) : null
-                        })}
-                      </div>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </section>
-
         <hr className="divider" />
 
         {/* ACCESO A OE */}
@@ -190,7 +140,7 @@ export default function DiagnosticoGlobal() {
           <h2 className="section-title">Explorar por Objetivo Estratégico</h2>
           <p style={{ color: 'var(--color-text-secondary)', fontSize: '0.9rem', marginBottom: 'var(--space-lg)' }}>
             El diagnóstico se desglosa en los 10 Objetivos Estratégicos de la Agenda Urbana Española.
-            Cada OE recoge la lectura territorial, conclusiones, retos y propuestas del ámbito correspondiente.
+            Cada OE recoge la lectura territorial, conclusiones y retos del ámbito correspondiente.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-sm)' }}>
             {oes.map(oe => (
@@ -282,9 +232,8 @@ export default function DiagnosticoGlobal() {
         <div className="flex gap-md" style={{ flexWrap: 'wrap' }}>
           <Link to="/conclusiones" className="btn btn-primary">Ver conclusiones →</Link>
           <Link to="/retos" className="btn btn-outline">Ver retos</Link>
-          <Link to="/propuestas" className="btn btn-outline">Ver propuestas</Link>
           <Link to="/objetivos" className="btn btn-outline">Explorar por OE</Link>
-          <Link to="/aportaciones" className="btn btn-accent">Realizar aportación</Link>
+          <Link to="/participacion" className="btn btn-accent">Participar</Link>
         </div>
       </div>
     </div>
