@@ -122,7 +122,7 @@ export default function Home() {
               La Agenda Urbana de Ibeas se organiza en cinco bloques complementarios.
               Cada uno aporta una capa de conocimiento o acción sobre el municipio.
             </p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-md)' }}>
+            <div className="modules-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-md)' }}>
               {MODULOS.map(m => (
                 <Link key={m.num} to={m.to} style={{ textDecoration: 'none' }}>
                   <div style={{
