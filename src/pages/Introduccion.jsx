@@ -18,18 +18,27 @@ export default function Introduccion() {
         {/* Qué es la Agenda Urbana */}
         <section className="section">
           <h1 className="section-title">La Agenda Urbana de Ibeas de Juarros</h1>
-          <div style={{ maxWidth: 760 }}>
-            <p style={{ fontSize: '1.05rem', color: 'var(--color-text-secondary)', lineHeight: 1.8, marginBottom: 'var(--space-lg)' }}>
-              La <strong style={{ color: 'var(--color-primary)' }}>Agenda Urbana Española</strong> es el marco de política
-              urbana del Gobierno de España, alineado con la Nueva Agenda Urbana de Naciones Unidas y los
-              Objetivos de Desarrollo Sostenible de la Agenda 2030. Su propósito es orientar a los municipios
-              hacia un modelo de desarrollo más equilibrado, sostenible e inclusivo.
-            </p>
-            <p style={{ fontSize: '1rem', color: 'var(--color-text-secondary)', lineHeight: 1.8, marginBottom: 'var(--space-lg)' }}>
-              Para municipios como Ibeas de Juarros, la Agenda Urbana ofrece una metodología estructurada
-              para conocer mejor el territorio, identificar sus fortalezas y debilidades, y definir un
-              camino de actuación concreto y priorizado.
-            </p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-xl)', alignItems: 'center' }}>
+            <div>
+              <p style={{ fontSize: '1.05rem', color: 'var(--color-text-secondary)', lineHeight: 1.8, marginBottom: 'var(--space-lg)' }}>
+                La <strong style={{ color: 'var(--color-primary)' }}>Agenda Urbana Española</strong> es el marco de política
+                urbana del Gobierno de España, alineado con la Nueva Agenda Urbana de Naciones Unidas y los
+                Objetivos de Desarrollo Sostenible de la Agenda 2030. Su propósito es orientar a los municipios
+                hacia un modelo de desarrollo más equilibrado, sostenible e inclusivo.
+              </p>
+              <p style={{ fontSize: '1rem', color: 'var(--color-text-secondary)', lineHeight: 1.8, marginBottom: 0 }}>
+                Para municipios como Ibeas de Juarros, la Agenda Urbana ofrece una metodología estructurada
+                para conocer mejor el territorio, identificar sus fortalezas y debilidades, y definir un
+                camino de actuación concreto y priorizado.
+              </p>
+            </div>
+            <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--shadow-md)' }}>
+              <img
+                src="assets/Ibeas-foto-2.jpeg"
+                alt="Ayuntamiento de Ibeas de Juarros"
+                style={{ width: '100%', height: 260, objectFit: 'cover', objectPosition: 'center', display: 'block' }}
+              />
+            </div>
           </div>
         </section>
 
@@ -38,7 +47,7 @@ export default function Introduccion() {
         {/* Por qué Ibeas */}
         <section className="section">
           <h2 className="section-title">Por qué este proceso en Ibeas</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 'var(--space-md)' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 'var(--space-md)', marginBottom: 'var(--space-xl)' }}>
             {[
               { titulo: 'Un municipio en transformación', desc: 'Ibeas de Juarros ha experimentado un importante crecimiento demográfico en las últimas décadas, impulsado por su posición en el corredor del Arlanzón, a 11 km de Burgos. Gestionar ese crecimiento con criterio es el reto central.' },
               { titulo: 'Territorio y paisaje como activos', desc: 'Con más del 64% de superficie forestal y un entorno natural de alto valor, el municipio tiene en el territorio uno de sus principales activos. La Agenda Urbana ayuda a ponerlo en valor sin comprometer su carácter.' },
@@ -51,6 +60,13 @@ export default function Introduccion() {
                 </div>
               </div>
             ))}
+          </div>
+          <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--shadow-md)' }}>
+            <img
+              src="assets/Ibeas-foto-4.jpeg"
+              alt="Mural de Ibeas de Juarros"
+              style={{ width: '100%', height: 280, objectFit: 'cover', objectPosition: 'center 30%', display: 'block' }}
+            />
           </div>
         </section>
 

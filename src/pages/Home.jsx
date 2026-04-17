@@ -112,6 +112,19 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ── FOTO TERRITORIAL ── */}
+      <div style={{ overflow: 'hidden', maxHeight: 320, position: 'relative' }}>
+        <img
+          src="assets/Ibeas-foto-8.jpeg"
+          alt="Término municipal de Ibeas de Juarros"
+          style={{ width: '100%', height: 320, objectFit: 'cover', objectPosition: 'center 40%', display: 'block' }}
+        />
+        <div style={{
+          position: 'absolute', inset: 0,
+          background: 'linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(245,247,249,0.7) 100%)',
+        }} />
+      </div>
+
       <div className="page-content">
         <div className="container">
 

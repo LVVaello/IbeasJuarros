@@ -46,6 +46,13 @@ export default function Participacion() {
               </div>
             ))}
           </div>
+          <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--shadow-md)' }}>
+            <img
+              src="assets/Ibeas-foto-5.jpeg"
+              alt="Parque y arroyo en Ibeas de Juarros"
+              style={{ width: '100%', height: 220, objectFit: 'cover', objectPosition: 'center 55%', display: 'block' }}
+            />
+          </div>
         </section>
 
         <hr className="divider" />
