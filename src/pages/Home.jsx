@@ -27,6 +27,25 @@ const DIAGNOSTICO_ACCESOS = [
   },
 ]
 
+const PROCESO_ACCESOS = [
+  {
+    to: '/participacion',
+    title: 'Participación ciudadana',
+    desc: '76 personas respondieron el sondeo online. El taller municipal ha concluido y sus resultados están integrados.',
+    icon: '🗣',
+    color: 'var(--color-oe6)',
+    badge: 'Completada',
+  },
+  {
+    to: '/marco-estrategico',
+    title: 'Marco Estratégico',
+    desc: '5 desafíos, 6 oportunidades y 10 objetivos específicos que orientan la Agenda Urbana del municipio.',
+    icon: '🧭',
+    color: 'var(--color-oe3)',
+    badge: 'Disponible',
+  },
+]
+
 export default function Home() {
   const presentacion = narrativa.global?.presentacion ?? ''
   const conclusiones = narrativa.global?.conclusiones ?? []
@@ -166,6 +185,43 @@ export default function Home() {
               </div>
             </section>
           )}
+
+          <hr className="divider" />
+
+          {/* PARTICIPACIÓN Y MARCO ESTRATÉGICO */}
+          <section className="section">
+            <div className="flex items-center justify-between mb-lg" style={{ flexWrap: 'wrap', gap: 'var(--space-sm)' }}>
+              <div>
+                <h2 className="section-title" style={{ marginBottom: 'var(--space-xs)', borderBottom: 'none' }}>
+                  Proceso de la Agenda Urbana
+                </h2>
+                <p className="text-secondary" style={{ margin: 0, fontSize: '0.9rem' }}>
+                  El diagnóstico técnico se integra con la participación ciudadana para construir el marco estratégico del municipio.
+                </p>
+              </div>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 'var(--space-md)' }}>
+              {PROCESO_ACCESOS.map(f => (
+                <Link key={f.to} to={f.to} style={{ textDecoration: 'none' }}>
+                  <div className="card" style={{ height: '100%' }}>
+                    <div className="card-body" style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-sm)' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                        <div style={{ fontSize: '2rem', marginBottom: 'var(--space-xs)' }}>{f.icon}</div>
+                        <span style={{
+                          fontSize: '0.65rem', fontWeight: 700, fontFamily: 'var(--font-heading)',
+                          textTransform: 'uppercase', letterSpacing: '0.04em',
+                          padding: '0.15rem 0.5rem', borderRadius: 'var(--radius-full)',
+                          background: '#e8f5e9', color: 'var(--color-available)',
+                        }}>{f.badge}</span>
+                      </div>
+                      <h3 style={{ color: f.color, marginBottom: 'var(--space-xs)' }}>{f.title}</h3>
+                      <p style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)', margin: 0, lineHeight: 1.6 }}>{f.desc}</p>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
 
           <hr className="divider" />
 

@@ -11,6 +11,8 @@ const Aportaciones = lazy(() => import('./pages/Aportaciones'))
 const Conclusiones = lazy(() => import('./pages/Conclusiones'))
 const Retos = lazy(() => import('./pages/Retos'))
 const Propuestas = lazy(() => import('./pages/Propuestas'))
+const Participacion = lazy(() => import('./pages/Participacion'))
+const MarcoEstrategico = lazy(() => import('./pages/MarcoEstrategico'))
 
 function PageLoader() {
   return (
@@ -34,6 +36,8 @@ export default function App() {
           <Route path="conclusiones" element={<Suspense fallback={<PageLoader />}><Conclusiones /></Suspense>} />
           <Route path="retos" element={<Suspense fallback={<PageLoader />}><Retos /></Suspense>} />
           <Route path="propuestas" element={<Suspense fallback={<PageLoader />}><Propuestas /></Suspense>} />
+          <Route path="participacion" element={<Suspense fallback={<PageLoader />}><Participacion /></Suspense>} />
+          <Route path="marco-estrategico" element={<Suspense fallback={<PageLoader />}><MarcoEstrategico /></Suspense>} />
         </Route>
       </Routes>
     </HashRouter>

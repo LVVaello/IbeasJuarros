@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "participantes_sondeo": 76,
+    "satisfaccion_media": 3.45,
+    "escala": 5,
+    "metodologia": [
+      "Sondeo en línea (76 personas)",
+      "Grupo focal (taller participativo)",
+      "Entrevista con el equipo municipal"
+    ],
+    "estado_formulario": "cerrado",
+    "estado_taller": "realizado"
+  },
+  "sondeo": {
+    "resumen": "El sondeo refleja una comunidad con alto grado de arraigo y valoración positiva del municipio, pero consciente de retos relacionados con la movilidad, los servicios y el relevo generacional. La satisfacción media (3,45 sobre 5) es moderada y característica de entornos rurales donde el arraigo coexiste con carencias estructurales.",
+    "prioridades": [
+      { "tema": "Movilidad y transporte", "menciones": 47 },
+      { "tema": "Juventud y oportunidades", "menciones": 29 },
+      { "tema": "Servicios e instalaciones públicas", "menciones": 25 },
+      { "tema": "Entorno natural y paisaje", "menciones": 20 },
+      { "tema": "Personas mayores", "menciones": 17 },
+      { "tema": "Limpieza y espacio público", "menciones": 16 },
+      { "tema": "Comercio de proximidad", "menciones": 15 },
+      { "tema": "Vivienda", "menciones": 13 },
+      { "tema": "Empleo", "menciones": 11 },
+      { "tema": "Participación ciudadana", "menciones": 10 },
+      { "tema": "Digitalización", "menciones": 2 }
+    ],
+    "prioridades_mejora": [
+      { "tema": "Calles, plazas y espacios públicos", "pct": 23.7 },
+      { "tema": "Atención a infancia, juventud y mayores", "pct": 21.1 },
+      { "tema": "Protección del territorio y patrimonio", "pct": 14.5 },
+      { "tema": "Movilidad y transporte", "pct": 13.2 },
+      { "tema": "Servicios y equipamientos municipales", "pct": 10.5 },
+      { "tema": "Vivienda", "pct": 9.2 },
+      { "tema": "Economía local, comercio y empleo", "pct": 6.6 },
+      { "tema": "Participación ciudadana", "pct": 1.3 }
+    ],
+    "insights": [
+      "La movilidad es el eje central de calidad de vida: la conexión cotidiana con Burgos condiciona el acceso a empleo, estudios y servicios.",
+      "La preocupación por la juventud refleja la inquietud por el relevo generacional y la capacidad del municipio de retener población joven.",
+      "El paisaje y el entorno natural no son solo medioambiente: son identidad local y atractivo residencial.",
+      "Las prioridades de mejora se desplazan hacia lo más cotidiano: el estado del espacio físico inmediato y los cuidados intergeneracionales."
+    ]
+  },
+  "focus_group": {
+    "resumen": "El grupo focal refleja una comunidad cohesionada que valora positivamente sus recursos, pero que identifica retos vinculados a la sostenibilidad ambiental, el envejecimiento, la movilidad y la capacidad de atraer y retener población. Las demandas no responden a déficits básicos, sino a la aspiración de mejorar la calidad de vida y asegurar el futuro del municipio.",
+    "areas": [
+      {
+        "id": "entorno",
+        "nombre": "Entorno",
+        "descripcion": "Medioambiente, espacio natural, infraestructura verde",
+        "activos": [
+          "Entorno natural de gran valor (río Arlanzón, El Soto)",
+          "Camino de Santiago como recurso territorial",
+          "Cooperativa de energía solar en funcionamiento",
+          "Paseos y caminos rurales"
+        ],
+        "retos": [
+          "N-120: ruido, contaminación y seguridad vial",
+          "Falta de arbolado y jardines en zonas bajas del municipio",
+          "Zanjas de corrales sin recuperar desde hace años",
+          "Caminos a San Millán y al cementerio en mal estado",
+          "Necesidad de parques dentro del núcleo urbano"
+        ]
+      },
+      {
+        "id": "personas",
+        "nombre": "Personas",
+        "descripcion": "Ocio, cultura, servicios y atención por grupos de edad",
+        "activos": [
+          "Infraestructuras deportivas y educativas valoradas",
+          "Biblioteca municipal",
+          "Tejido asociativo activo",
+          "Fuerte sentido de comunidad y arraigo"
+        ],
+        "retos": [
+          "Escasa frecuencia de autobuses (ninguno los fines de semana)",
+          "Ausencia de centro de día o residencia para personas mayores",
+          "Falta de actividades y espacios para la juventud",
+          "Horario del polideportivo poco adaptado a la demanda",
+          "Escasez de mobiliario urbano (bancos, zonas de descanso)"
+        ]
+      },
+      {
+        "id": "pueblo",
+        "nombre": "Pueblo",
+        "descripcion": "Infraestructuras, servicios públicos y escena urbana",
+        "activos": [
+          "Polideportivo, colegio, escuela infantil",
+          "Centro cívico y Ayuntamiento",
+          "Campo de fútbol y merenderos",
+          "Centro médico y asociaciones locales"
+        ],
+        "retos": [
+          "Rehabilitación del casco antiguo y recuperación de casas vacías",
+          "Conexión de Burgos a Ibeas con mayor frecuencia y fin de semana",
+          "Adecuar zona de baños en el río",
+          "Comida a domicilio para personas mayores",
+          "Refuerzo de comercio de alimentación de proximidad"
+        ]
+      }
+    ]
+  },
+  "integracion": {
+    "texto": "El proceso participativo desarrollado en Ibeas de Juarros ha permitido identificar una visión compartida del municipio: una comunidad cohesionada y arraigada que no cuestiona su modelo de vida, sino que aspira a consolidarlo y mejorarlo. Los resultados del sondeo y del grupo focal confluyen en tres pilares de bienestar —conectividad, cohesión social y entorno natural— y apuntan hacia un municipio que quiere crecer sin perder su identidad.",
+    "lineas": [
+      {
+        "num": 1,
+        "titulo": "Cuidar y revitalizar el espacio público",
+        "items": [
+          "Rehabilitación y mantenimiento de calles, aceras y caminos",
+          "Creación y mejora de parques, zonas de sombra y espacios de encuentro",
+          "Recuperación de áreas degradadas y del entorno del río Arlanzón",
+          "Mejora del mobiliario urbano (bancos, iluminación, señalización)"
+        ]
+      },
+      {
+        "num": 2,
+        "titulo": "Impulsar una estrategia intergeneracional",
+        "items": [
+          "Programación estable de actividades juveniles, culturales y deportivas",
+          "Espacios de encuentro para jóvenes y familias",
+          "Refuerzo de servicios para personas mayores (centro de día, cuidados)",
+          "Proyectos de convivencia y apoyo mutuo entre generaciones"
+        ]
+      },
+      {
+        "num": 3,
+        "titulo": "Mejorar la movilidad y la conexión con el entorno",
+        "items": [
+          "Incrementar la frecuencia del transporte público con Burgos",
+          "Establecer servicios durante fines de semana y horarios adaptados",
+          "Mejorar la seguridad peatonal y ciclista",
+          "Conectar mejor pedanías y núcleos menores"
+        ]
+      },
+      {
+        "num": 4,
+        "titulo": "Proteger el territorio y el patrimonio",
+        "items": [
+          "Conservar el río Arlanzón y sus espacios asociados",
+          "Ampliar zonas verdes y arbolado",
+          "Impulsar medidas de sostenibilidad y energía renovable",
+          "Rehabilitar patrimonio y viviendas tradicionales del casco antiguo",
+          "Poner en valor el Camino de Santiago y la identidad local"
+        ]
+      },
+      {
+        "num": 5,
+        "titulo": "Facilitar el acceso a la vivienda y fijar población",
+        "items": [
+          "Promover la rehabilitación de viviendas vacías",
+          "Favorecer el acceso residencial para jóvenes y familias",
+          "Recuperar inmuebles del casco tradicional",
+          "Impulsar medidas de atracción y fijación de población"
+        ]
+      },
+      {
+        "num": 6,
+        "titulo": "Reforzar servicios y equipamientos municipales",
+        "items": [
+          "Mejorar horarios y usos de instalaciones deportivas",
+          "Dinamizar la biblioteca y los espacios culturales",
+          "Potenciar el centro cívico y las asociaciones",
+          "Ampliar servicios de proximidad para personas mayores"
+        ]
+      },
+      {
+        "num": 7,
+        "titulo": "Apoyar la economía local y el empleo",
+        "items": [
+          "Apoyo al comercio de proximidad",
+          "Impulso al turismo ligado al patrimonio y la naturaleza",
+          "Fomento del emprendimiento local",
+          "Mejora de la conexión entre empleo y movilidad"
+        ]
+      },
+      {
+        "num": 8,
+        "titulo": "Fortalecer la participación y la convivencia",
+        "items": [
+          "Canales estables de información y consulta ciudadana",
+          "Procesos participativos para proyectos municipales",
+          "Programas de convivencia y cuidado del espacio común",
+          "Coordinación con asociaciones y colectivos locales"
+        ]
+      }
+    ]
+  }
+}

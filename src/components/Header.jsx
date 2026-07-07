@@ -5,9 +5,10 @@ import './Header.css'
 const NAV_ITEMS = [
   { to: '/', label: 'Inicio', exact: true },
   { to: '/diagnostico', label: 'Diagnóstico' },
-  { to: '/objetivos', label: 'Objetivos Estratégicos' },
-  { to: '/datos', label: 'Visor de datos' },
-  { to: '/aportaciones', label: 'Aportar' },
+  { to: '/participacion', label: 'Participación' },
+  { to: '/marco-estrategico', label: 'Marco Estratégico' },
+  { to: '/objetivos', label: 'OE' },
+  { to: '/datos', label: 'Datos' },
 ]
 
 export default function Header() {
